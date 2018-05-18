@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{731F0BF8-FB62-47F3-ADC6-BF89375624A7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="03-Back-in-30-Minutes/Program.cs">
+    <Files>
+      <File FileName="03-Back-in-30-Minutes/Program.cs" Line="27" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.03-Back-in-30-Minutes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

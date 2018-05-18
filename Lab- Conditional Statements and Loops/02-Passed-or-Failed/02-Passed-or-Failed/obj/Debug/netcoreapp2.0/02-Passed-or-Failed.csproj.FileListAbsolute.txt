@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/bin/Debug/netcoreapp2.0/02-Passed-or-Failed.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/bin/Debug/netcoreapp2.0/02-Passed-or-Failed.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/bin/Debug/netcoreapp2.0/02-Passed-or-Failed.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/bin/Debug/netcoreapp2.0/02-Passed-or-Failed.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/bin/Debug/netcoreapp2.0/02-Passed-or-Failed.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/02-Passed-or-Failed/02-Passed-or-Failed/obj/Debug/netcoreapp2.0/02-Passed-or-Failed.pdb

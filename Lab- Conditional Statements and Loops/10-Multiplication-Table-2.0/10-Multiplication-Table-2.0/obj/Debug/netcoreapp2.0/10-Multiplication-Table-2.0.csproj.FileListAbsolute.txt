@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/bin/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/bin/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/bin/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/bin/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/bin/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/10-Multiplication-Table-2.0/10-Multiplication-Table-2.0/obj/Debug/netcoreapp2.0/10-Multiplication-Table-2.0.pdb

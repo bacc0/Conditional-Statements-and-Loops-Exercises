@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/bin/Debug/netcoreapp2.0/07-Divisible-by-3.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/bin/Debug/netcoreapp2.0/07-Divisible-by-3.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/bin/Debug/netcoreapp2.0/07-Divisible-by-3.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/bin/Debug/netcoreapp2.0/07-Divisible-by-3.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/bin/Debug/netcoreapp2.0/07-Divisible-by-3.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/07-Divisible-by-3/07-Divisible-by-3/obj/Debug/netcoreapp2.0/07-Divisible-by-3.pdb

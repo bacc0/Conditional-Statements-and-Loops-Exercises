@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/bin/Debug/netcoreapp2.0/04-Month-Printer.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/bin/Debug/netcoreapp2.0/04-Month-Printer.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/bin/Debug/netcoreapp2.0/04-Month-Printer.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/bin/Debug/netcoreapp2.0/04-Month-Printer.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/bin/Debug/netcoreapp2.0/04-Month-Printer.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/04-Month-Printer/04-Month-Printer/obj/Debug/netcoreapp2.0/04-Month-Printer.pdb

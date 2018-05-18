@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/bin/Debug/netcoreapp2.0/11-Odd-Number.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/bin/Debug/netcoreapp2.0/11-Odd-Number.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/bin/Debug/netcoreapp2.0/11-Odd-Number.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/bin/Debug/netcoreapp2.0/11-Odd-Number.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/bin/Debug/netcoreapp2.0/11-Odd-Number.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/11-Odd-Number/11-Odd-Number/obj/Debug/netcoreapp2.0/11-Odd-Number.pdb

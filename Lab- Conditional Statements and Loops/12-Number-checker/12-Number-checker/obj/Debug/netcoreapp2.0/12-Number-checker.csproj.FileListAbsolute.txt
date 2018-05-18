@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/bin/Debug/netcoreapp2.0/12-Number-checker.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/bin/Debug/netcoreapp2.0/12-Number-checker.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/bin/Debug/netcoreapp2.0/12-Number-checker.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/bin/Debug/netcoreapp2.0/12-Number-checker.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/bin/Debug/netcoreapp2.0/12-Number-checker.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/12-Number-checker/12-Number-checker/obj/Debug/netcoreapp2.0/12-Number-checker.pdb

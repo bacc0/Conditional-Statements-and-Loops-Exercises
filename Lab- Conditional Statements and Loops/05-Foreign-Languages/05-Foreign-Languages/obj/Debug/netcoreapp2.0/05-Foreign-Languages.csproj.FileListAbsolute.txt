@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/bin/Debug/netcoreapp2.0/05-Foreign-Languages.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/bin/Debug/netcoreapp2.0/05-Foreign-Languages.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/bin/Debug/netcoreapp2.0/05-Foreign-Languages.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/bin/Debug/netcoreapp2.0/05-Foreign-Languages.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/bin/Debug/netcoreapp2.0/05-Foreign-Languages.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/05-Foreign-Languages/05-Foreign-Languages/obj/Debug/netcoreapp2.0/05-Foreign-Languages.pdb

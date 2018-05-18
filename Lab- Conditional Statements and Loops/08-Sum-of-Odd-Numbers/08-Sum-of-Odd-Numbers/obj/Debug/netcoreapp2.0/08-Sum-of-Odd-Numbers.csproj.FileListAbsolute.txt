@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/bin/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/bin/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/bin/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/bin/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/bin/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/08-Sum-of-Odd-Numbers/08-Sum-of-Odd-Numbers/obj/Debug/netcoreapp2.0/08-Sum-of-Odd-Numbers.pdb

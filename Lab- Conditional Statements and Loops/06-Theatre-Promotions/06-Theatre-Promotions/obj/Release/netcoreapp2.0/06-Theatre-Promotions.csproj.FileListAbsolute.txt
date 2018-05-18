@@ -1,0 +1,10 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/bin/Release/netcoreapp2.0/06-Theatre-Promotions.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/bin/Release/netcoreapp2.0/06-Theatre-Promotions.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/bin/Release/netcoreapp2.0/06-Theatre-Promotions.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/bin/Release/netcoreapp2.0/06-Theatre-Promotions.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/bin/Release/netcoreapp2.0/06-Theatre-Promotions.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/obj/Release/netcoreapp2.0/06-Theatre-Promotions.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/obj/Release/netcoreapp2.0/06-Theatre-Promotions.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/obj/Release/netcoreapp2.0/06-Theatre-Promotions.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/obj/Release/netcoreapp2.0/06-Theatre-Promotions.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/06-Theatre-Promotions/06-Theatre-Promotions/obj/Release/netcoreapp2.0/06-Theatre-Promotions.pdb

@@ -1,0 +1,11 @@
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/bin/Debug/netcoreapp2.0/03-Back-in-30-Minutes.deps.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/bin/Debug/netcoreapp2.0/03-Back-in-30-Minutes.runtimeconfig.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/bin/Debug/netcoreapp2.0/03-Back-in-30-Minutes.runtimeconfig.dev.json
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/bin/Debug/netcoreapp2.0/03-Back-in-30-Minutes.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/bin/Debug/netcoreapp2.0/03-Back-in-30-Minutes.pdb
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.csprojResolveAssemblyReference.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.csproj.CoreCompileInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.AssemblyInfoInputs.cache
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.AssemblyInfo.cs
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.dll
+/Users/R1/Desktop/Lab- Conditional Statements and Loops/03-Back-in-30-Minutes/03-Back-in-30-Minutes/obj/Debug/netcoreapp2.0/03-Back-in-30-Minutes.pdb

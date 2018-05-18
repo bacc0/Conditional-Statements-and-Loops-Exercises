@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F69FC0B8-56F1-4793-9980-4587D32D8DA7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="02-Passed-or-Failed/Program.cs">
+    <Files>
+      <File FileName="02-Passed-or-Failed/Program.cs" Line="22" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.02-Passed-or-Failed PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
