@@ -664,30 +664,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\beRock\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/R1/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\beRock\\Desktop\\Conditional-Statements-and-Loops-Exercises\\Calories-Counter\\Calories-Counter.csproj",
+      "projectUniqueName": "/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Calories-Counter/Calories-Counter.csproj",
       "projectName": "Calories-Counter",
-      "projectPath": "C:\\Users\\beRock\\Desktop\\Conditional-Statements-and-Loops-Exercises\\Calories-Counter\\Calories-Counter.csproj",
-      "packagesPath": "C:\\Users\\beRock\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\beRock\\Desktop\\Conditional-Statements-and-Loops-Exercises\\Calories-Counter\\obj\\",
+      "projectPath": "/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Calories-Counter/Calories-Counter.csproj",
+      "packagesPath": "/Users/R1/.nuget/packages/",
+      "outputPath": "/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Calories-Counter/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\beRock\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/R1/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -705,8 +703,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
