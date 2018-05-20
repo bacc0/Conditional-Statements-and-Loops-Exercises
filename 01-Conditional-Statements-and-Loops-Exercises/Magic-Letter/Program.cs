@@ -10,21 +10,17 @@ namespace cup
             char last = char.Parse(Console.ReadLine());
             char magic = char.Parse(Console.ReadLine());
 
-            for (char one = first; one <= last; one++)
+            for (var a = first; a <= last; a++)
             {
-                for (char two = first; two <= last; two++)
+                for (var b = first; b <= last; b++)
                 {
-                    for (char three = first; three <= last; three++)
+                    for (var c = first; c <= last; c++)
                     {
-                        if (one == magic ||
-                             two == magic ||
-                             three == magic)
+                        if (a != magic &&
+                            b != magic &&
+                            c != magic)
                         {
-
-                        }
-                        else
-                        {
-                            Console.Write($"{one}{two}{three} ");
+                            Console.Write($"{a}{b}{c} ");
                         }
                     }
                 }

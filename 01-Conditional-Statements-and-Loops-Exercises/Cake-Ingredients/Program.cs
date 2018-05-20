@@ -6,22 +6,26 @@ namespace gr
     {
         static void Main(string[] args)
         {
-            var count = 0;
-            while (true)
-            {
-                count++;
-                var ingredient = Console.ReadLine();
+            char first = char.Parse(Console.ReadLine());
+            char last = char.Parse(Console.ReadLine());
+            char magic = char.Parse(Console.ReadLine());
 
-                if (ingredient == "Bake!")
+            for (var a = first; a <= last; a++)
+            {
+                for (var b = first; b <= last; b++)
                 {
-                    Console.WriteLine($"Preparing cake with {--count} ingredients.");
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine($"Adding ingredient {ingredient}.");
+                    for (var c = first; c <= last; c++)
+                    {
+                        if (a != magic &&
+                            b != magic &&
+                            c != magic)
+                        {
+                            Console.Write($"{a}{b}{c} ");
+                        }
+                    }
                 }
             }
+
         }
     }
 }

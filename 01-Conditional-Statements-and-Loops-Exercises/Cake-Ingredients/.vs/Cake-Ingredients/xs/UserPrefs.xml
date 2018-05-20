@@ -1,14 +1,20 @@
 ﻿<Properties StartupConfiguration="{ECD416B3-221D-4BD8-B338-4AFD03264D22}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Magic-Letter/Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="27" Column="14" />
+      <File FileName="../Magic-Letter/Program.cs" Line="19" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Program.cs" line="13" offsetX="520" offsetY="252" expression="a" liveUpdate="False" />
+    <Watch file="../../../Program.cs" line="15" offsetX="559" offsetY="294" expression="b" liveUpdate="False" />
+    <Watch file="../../../Program.cs" line="17" offsetX="598" offsetY="336" expression="c" liveUpdate="False" />
+    <Watch file="../../../Program.cs" line="11" offsetX="607" offsetY="210" expression="magic" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Cake-Ingredients PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
