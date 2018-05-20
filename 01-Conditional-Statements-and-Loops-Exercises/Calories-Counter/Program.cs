@@ -6,33 +6,22 @@ namespace test_today
     {
         static void Main(string[] args)
         {
-            var n = int.Parse(Console.ReadLine());
-
-            var calories = 0;
-
-            for (int i = 0; i < n; i++)
+            var count = 0;
+            while (true)
             {
-                var word = Console.ReadLine().ToLower();
+                count++;
+                var ingredient = Console.ReadLine();
 
-                switch (word)
+                if (ingredient == "Bake!")
                 {
-                    case "cheese":
-                        calories += 500;
-                        break;
-                    case "tomato sauce":
-                        calories += 150;
-                        break;
-                    case "salami":
-                        calories += 600;
-                        break;
-                    case "pepper":
-                        calories += 50;
-                        break;
-                    default:
-                        break;
+                    Console.WriteLine($"Preparing cake with {--count} ingredients.");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"Adding ingredient {ingredient}.");
                 }
             }
-            Console.WriteLine($"Total calories: {calories}");
         }
     }
 }

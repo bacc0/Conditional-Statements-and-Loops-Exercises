@@ -1,0 +1,11 @@
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/bin/Debug/netcoreapp2.0/Cake-Ingredients.deps.json
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/bin/Debug/netcoreapp2.0/Cake-Ingredients.runtimeconfig.json
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/bin/Debug/netcoreapp2.0/Cake-Ingredients.runtimeconfig.dev.json
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/bin/Debug/netcoreapp2.0/Cake-Ingredients.dll
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/bin/Debug/netcoreapp2.0/Cake-Ingredients.pdb
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.csprojResolveAssemblyReference.cache
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.csproj.CoreCompileInputs.cache
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.AssemblyInfoInputs.cache
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.AssemblyInfo.cs
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.dll
+/Users/R1/Documents/GitHub/Conditional-Statements-and-Loops-Exercises/01-Conditional-Statements-and-Loops-Exercises/Cake-Ingredients/obj/Debug/netcoreapp2.0/Cake-Ingredients.pdb

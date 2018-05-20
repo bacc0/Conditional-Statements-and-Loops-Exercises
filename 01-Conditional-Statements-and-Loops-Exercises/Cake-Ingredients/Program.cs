@@ -6,21 +6,20 @@ namespace gr
     {
         static void Main(string[] args)
         {
-            var count = -1;
-            for (int i = 0; i <= 20; i++)
+            var count = 0;
+            while (true)
             {
                 count++;
+                var ingredient = Console.ReadLine();
 
-                var a = Console.ReadLine();
-
-                if (a != "Bake!")
+                if (ingredient == "Bake!")
                 {
-                    Console.WriteLine($"Adding ingredient {a}.");
+                    Console.WriteLine($"Preparing cake with {--count} ingredients.");
+                    break;
                 }
                 else
                 {
-                    Console.WriteLine($"Preparing cake with {count} ingredients.");
-                    break;
+                    Console.WriteLine($"Adding ingredient {ingredient}.");
                 }
             }
         }
