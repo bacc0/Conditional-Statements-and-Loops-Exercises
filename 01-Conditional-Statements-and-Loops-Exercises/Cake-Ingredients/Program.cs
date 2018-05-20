@@ -1,31 +1,49 @@
 ﻿using System;
 
-namespace gr
+namespace cup
 {
     class Program
     {
         static void Main(string[] args)
         {
-            char first = char.Parse(Console.ReadLine());
-            char last = char.Parse(Console.ReadLine());
-            char magic = char.Parse(Console.ReadLine());
+            var peshoDamage = int.Parse(Console.ReadLine());
+            var goshoDamage = int.Parse(Console.ReadLine());
 
-            for (var a = first; a <= last; a++)
+            var gosho = 100;
+            var pesho = 100;
+
+            var countRestore = 0;
+
+            while (true)
             {
-                for (var b = first; b <= last; b++)
+                gosho -= peshoDamage;
+                if (gosho <= 0)
                 {
-                    for (var c = first; c <= last; c++)
-                    {
-                        if (a != magic &&
-                            b != magic &&
-                            c != magic)
-                        {
-                            Console.Write($"{a}{b}{c} ");
-                        }
-                    }
+                    Console.WriteLine($"Pesho won in {++countRestore}th round.");
+                    return;
+                }
+                Console.WriteLine($"Pesho used Roundhouse kick and reduced Gosho to {gosho} health.");
+                countRestore++;
+                if (countRestore % 3 == 0)
+                {
+                    gosho += 10;
+                    pesho += 10;
+                }
+
+                pesho -= goshoDamage;
+                if (pesho <= 0)
+                {
+                    Console.WriteLine($"Gosho won in {++countRestore}th round.");
+                    return;
+                }
+                Console.WriteLine($"Gosho used Thunderous fist and reduced Pesho to {pesho} health.");
+                countRestore++;
+                if (countRestore % 3 == 0)
+                {
+                    gosho += 10;
+                    pesho += 10;
                 }
             }
-
         }
     }
 }

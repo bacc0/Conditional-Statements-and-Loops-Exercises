@@ -6,52 +6,43 @@ namespace cup
     {
         static void Main(string[] args)
         {
-            var goshoDamage = int.Parse(Console.ReadLine());
             var peshoDamage = int.Parse(Console.ReadLine());
+            var goshoDamage = int.Parse(Console.ReadLine());
 
-            double peshoHelth = 100;
-            double goshoHelth = 100;
+            var gosho = 100;
+            var pesho = 100;
 
-            var count = 0;
+            var countRestore = 0;
 
-            while (peshoHelth >= 1 || goshoHelth >= 1)
+            while (true)
             {
-                count++;
-                goshoHelth -= goshoDamage;
-
-                if (goshoHelth <= 0)
+                gosho -= peshoDamage;
+                if (gosho <= 0)
                 {
-                    Console.WriteLine($"Pesho won in {count}th round.");
-                    Environment.Exit(0);
+                    Console.WriteLine($"Pesho won in {++countRestore}th round.");
+                    return;
                 }
-
-                Console.WriteLine($"Pesho used Roundhouse kick and reduced Gosho to {goshoHelth} health.");
-
-                if (count % 3 == 0)
+                Console.WriteLine($"Pesho used Roundhouse kick and reduced Gosho to {gosho} health.");
+                countRestore++;
+                if (countRestore % 3 == 0)
                 {
-                    peshoHelth += 10;
-                    goshoHelth += 10;
+                    gosho += 10;
+                    pesho += 10;
                 }
-
-                count++;
-                peshoHelth -= peshoDamage;
-
-                if (peshoHelth <= 0)
+                pesho -= goshoDamage;
+                if (pesho <= 0)
                 {
-                    Console.WriteLine($"Gosho won in {count}th round.");
-                    Environment.Exit(0);
+                    Console.WriteLine($"Gosho won in {++countRestore}th round.");
+                    return;
                 }
-
-                Console.WriteLine($"Gosho used Thunderous fist and reduced Pesho to {peshoHelth} health.");
-
-
-                if (count % 3 == 0)
+                Console.WriteLine($"Gosho used Thunderous fist and reduced Pesho to {pesho} health.");
+                countRestore++;
+                if (countRestore % 3 == 0)
                 {
-                    peshoHelth += 10;
-                    goshoHelth += 10;
+                    gosho += 10;
+                    pesho += 10;
                 }
             }
         }
     }
 }
-
