@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/bin/Debug/11-Convert-Speed-Units.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/bin/Debug/11-Convert-Speed-Units.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/obj/x86/Debug/11-Convert-Speed-Units.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/obj/x86/Debug/11-Convert-Speed-Units.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/obj/x86/Debug/11-Convert-Speed-Units.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/11-Convert-Speed-Units/11-Convert-Speed-Units/obj/x86/Debug/11-Convert-Speed-Units.pdb

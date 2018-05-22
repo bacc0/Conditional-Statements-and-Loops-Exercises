@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{7002DBA2-39CD-473D-B71F-917D30C21736}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="03-Practice-Characters-and-Strings/Program.cs">
+    <Files>
+      <File FileName="03-Practice-Characters-and-Strings/Program.cs" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.03-Practice-Characters-and-Strings PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

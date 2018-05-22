@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../07-Exchange-Variable-Values/07-Exchange-Variable-Values/Program.cs">
+    <Files>
+      <File FileName="08-Employee-Data/Program.cs" Line="25" Column="1" />
+      <File FileName="../01-Practice-Integer-Numbers/01-Practice-Integer-Numbers/Program.cs" Line="27" Column="1" />
+      <File FileName="../02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/Program.cs" Line="19" Column="1" />
+      <File FileName="../03-Practice-Characters-and-Strings/03-Practice-Characters-and-Strings/Program.cs" Line="23" Column="1" />
+      <File FileName="../04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/Program.cs" Line="15" Column="1" />
+      <File FileName="../05-Boolean-Variable/05-Boolean-Variable/Program.cs" Line="24" Column="1" />
+      <File FileName="../06-Strings-and-Objects/06-Strings-and-Objects/Program.cs" Line="17" Column="1" />
+      <File FileName="../07-Exchange-Variable-Values/07-Exchange-Variable-Values/Program.cs" Line="25" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.08-Employee-Data PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

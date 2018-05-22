@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F59A6EF7-2E43-424F-9118-A7885B82FF30}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="09-Reverse-Characters/Program.cs">
+    <Files>
+      <File FileName="09-Reverse-Characters/Program.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.09-Reverse-Characters PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

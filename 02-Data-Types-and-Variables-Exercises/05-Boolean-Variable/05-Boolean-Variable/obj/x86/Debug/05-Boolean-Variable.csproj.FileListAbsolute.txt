@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/bin/Debug/05-Boolean-Variable.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/bin/Debug/05-Boolean-Variable.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/obj/x86/Debug/05-Boolean-Variable.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/obj/x86/Debug/05-Boolean-Variable.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/obj/x86/Debug/05-Boolean-Variable.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/05-Boolean-Variable/05-Boolean-Variable/obj/x86/Debug/05-Boolean-Variable.pdb

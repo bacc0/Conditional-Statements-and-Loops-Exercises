@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Employee-Data", "08-Employee-Data\08-Employee-Data.csproj", "{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}.Debug|x86.ActiveCfg = Debug|x86
+		{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}.Debug|x86.Build.0 = Debug|x86
+		{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}.Release|x86.ActiveCfg = Release|x86
+		{CDD4B69A-9D49-422E-B1A2-D0005A5DF21E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

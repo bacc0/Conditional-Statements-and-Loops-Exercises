@@ -29,7 +29,6 @@ namespace cup
                     gosho += 10;
                     pesho += 10;
                 }
-
                 pesho -= goshoDamage;
                 if (pesho <= 0)
                 {

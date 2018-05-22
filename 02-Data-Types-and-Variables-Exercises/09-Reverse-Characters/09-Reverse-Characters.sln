@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Reverse-Characters", "09-Reverse-Characters\09-Reverse-Characters.csproj", "{F59A6EF7-2E43-424F-9118-A7885B82FF30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59A6EF7-2E43-424F-9118-A7885B82FF30}.Debug|x86.ActiveCfg = Debug|x86
+		{F59A6EF7-2E43-424F-9118-A7885B82FF30}.Debug|x86.Build.0 = Debug|x86
+		{F59A6EF7-2E43-424F-9118-A7885B82FF30}.Release|x86.ActiveCfg = Release|x86
+		{F59A6EF7-2E43-424F-9118-A7885B82FF30}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

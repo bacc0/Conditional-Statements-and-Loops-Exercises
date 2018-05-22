@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E5B663A5-D3C3-4762-A007-B19F81ED9FD5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="02-Practice-Floating-Point-Numbers/Program.cs">
+    <Files>
+      <File FileName="02-Practice-Floating-Point-Numbers/Program.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.02-Practice-Floating-Point-Numbers PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

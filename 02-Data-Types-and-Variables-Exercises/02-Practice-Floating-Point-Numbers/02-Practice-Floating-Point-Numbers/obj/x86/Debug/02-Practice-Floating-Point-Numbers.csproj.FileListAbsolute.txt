@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/bin/Debug/02-Practice-Floating-Point-Numbers.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/bin/Debug/02-Practice-Floating-Point-Numbers.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/obj/x86/Debug/02-Practice-Floating-Point-Numbers.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/obj/x86/Debug/02-Practice-Floating-Point-Numbers.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/obj/x86/Debug/02-Practice-Floating-Point-Numbers.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/02-Practice-Floating-Point-Numbers/02-Practice-Floating-Point-Numbers/obj/x86/Debug/02-Practice-Floating-Point-Numbers.pdb

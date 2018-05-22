@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/bin/Debug/09-Reverse-Characters.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/bin/Debug/09-Reverse-Characters.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/obj/x86/Debug/09-Reverse-Characters.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/obj/x86/Debug/09-Reverse-Characters.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/obj/x86/Debug/09-Reverse-Characters.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/09-Reverse-Characters/09-Reverse-Characters/obj/x86/Debug/09-Reverse-Characters.pdb

@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/bin/Debug/04-Variable-in-Hexadecimal-Format.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/bin/Debug/04-Variable-in-Hexadecimal-Format.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/obj/x86/Debug/04-Variable-in-Hexadecimal-Format.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/obj/x86/Debug/04-Variable-in-Hexadecimal-Format.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/obj/x86/Debug/04-Variable-in-Hexadecimal-Format.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/04-Variable-in-Hexadecimal-Format/04-Variable-in-Hexadecimal-Format/obj/x86/Debug/04-Variable-in-Hexadecimal-Format.pdb

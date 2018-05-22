@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/bin/Debug/14-Integer-to-Hex-and-Binary.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/bin/Debug/14-Integer-to-Hex-and-Binary.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/obj/x86/Debug/14-Integer-to-Hex-and-Binary.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/obj/x86/Debug/14-Integer-to-Hex-and-Binary.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/obj/x86/Debug/14-Integer-to-Hex-and-Binary.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/14-Integer-to-Hex-and-Binary/14-Integer-to-Hex-and-Binary/obj/x86/Debug/14-Integer-to-Hex-and-Binary.pdb

@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/bin/Debug/12-Rectangle-Properties.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/bin/Debug/12-Rectangle-Properties.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/obj/x86/Debug/12-Rectangle-Properties.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/obj/x86/Debug/12-Rectangle-Properties.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/obj/x86/Debug/12-Rectangle-Properties.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/12-Rectangle-Properties/12-Rectangle-Properties/obj/x86/Debug/12-Rectangle-Properties.pdb

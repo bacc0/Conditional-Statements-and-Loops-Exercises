@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/bin/Debug/07-Exchange-Variable-Values.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/bin/Debug/07-Exchange-Variable-Values.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/obj/x86/Debug/07-Exchange-Variable-Values.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/obj/x86/Debug/07-Exchange-Variable-Values.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/obj/x86/Debug/07-Exchange-Variable-Values.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/07-Exchange-Variable-Values/07-Exchange-Variable-Values/obj/x86/Debug/07-Exchange-Variable-Values.pdb
