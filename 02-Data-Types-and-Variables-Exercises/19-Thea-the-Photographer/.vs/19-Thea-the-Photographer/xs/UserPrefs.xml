@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{0C0219A9-9C3C-4030-8459-ADEC6CA259E1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="19-Thea-the-Photographer/Program.cs">
+    <Files>
+      <File FileName="19-Thea-the-Photographer/Program.cs" Line="7" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.19-Thea-the-Photographer PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

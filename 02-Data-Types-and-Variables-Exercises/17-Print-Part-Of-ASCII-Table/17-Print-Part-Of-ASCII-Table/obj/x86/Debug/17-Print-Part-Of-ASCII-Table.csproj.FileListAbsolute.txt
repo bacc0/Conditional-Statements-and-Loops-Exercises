@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/bin/Debug/17-Print-Part-Of-ASCII-Table.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/bin/Debug/17-Print-Part-Of-ASCII-Table.pdb
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/obj/x86/Debug/17-Print-Part-Of-ASCII-Table.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/obj/x86/Debug/17-Print-Part-Of-ASCII-Table.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/obj/x86/Debug/17-Print-Part-Of-ASCII-Table.exe
+/Users/bewater/Desktop/Data-Types-and-Variables-Exercises/17-Print-Part-Of-ASCII-Table/17-Print-Part-Of-ASCII-Table/obj/x86/Debug/17-Print-Part-Of-ASCII-Table.pdb

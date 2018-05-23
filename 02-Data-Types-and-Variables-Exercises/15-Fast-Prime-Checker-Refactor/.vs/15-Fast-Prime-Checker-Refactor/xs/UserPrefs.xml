@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{35CD0BF8-B3B6-40A6-8B45-67DF1136EA2F}|Default">
+  <MonoDevelop.Ide.ItemProperties.15-Fast-Prime-Checker-Refactor PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="15-Fast-Prime-Checker-Refactor/Program.cs">
+    <Files>
+      <File FileName="15-Fast-Prime-Checker-Refactor/Program.cs" Line="26" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
