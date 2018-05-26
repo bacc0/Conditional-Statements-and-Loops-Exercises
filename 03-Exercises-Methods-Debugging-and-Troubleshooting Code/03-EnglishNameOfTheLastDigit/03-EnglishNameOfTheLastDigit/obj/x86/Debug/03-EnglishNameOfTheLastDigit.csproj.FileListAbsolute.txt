@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/bin/Debug/03-EnglishNameOfTheLastDigit.exe
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/bin/Debug/03-EnglishNameOfTheLastDigit.pdb
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/obj/x86/Debug/03-EnglishNameOfTheLastDigit.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/obj/x86/Debug/03-EnglishNameOfTheLastDigit.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/obj/x86/Debug/03-EnglishNameOfTheLastDigit.exe
+/Users/bewater/Desktop/03-EnglishNameOfTheLastDigit/03-EnglishNameOfTheLastDigit/obj/x86/Debug/03-EnglishNameOfTheLastDigit.pdb

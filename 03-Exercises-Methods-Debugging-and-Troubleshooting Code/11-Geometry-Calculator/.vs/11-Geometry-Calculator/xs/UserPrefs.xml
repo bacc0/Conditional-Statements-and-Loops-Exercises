@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{8CF5A7F9-64D8-4F02-9748-7EAD15996725}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="11-Geometry-Calculator/Program.cs">
+    <Files>
+      <File FileName="11-Geometry-Calculator/Program.cs" Line="67" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.11-Geometry-Calculator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

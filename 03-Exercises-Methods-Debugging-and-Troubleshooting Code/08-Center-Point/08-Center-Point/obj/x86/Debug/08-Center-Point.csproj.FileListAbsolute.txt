@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/bin/Debug/08-Center-Point.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/bin/Debug/08-Center-Point.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/obj/x86/Debug/08-Center-Point.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/obj/x86/Debug/08-Center-Point.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/obj/x86/Debug/08-Center-Point.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/08-Center-Point/08-Center-Point/obj/x86/Debug/08-Center-Point.pdb

@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/bin/Debug/05-Fibonacci-Numbers.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/bin/Debug/05-Fibonacci-Numbers.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/obj/x86/Debug/05-Fibonacci-Numbers.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/obj/x86/Debug/05-Fibonacci-Numbers.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/obj/x86/Debug/05-Fibonacci-Numbers.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/05-Fibonacci-Numbers/05-Fibonacci-Numbers/obj/x86/Debug/05-Fibonacci-Numbers.pdb

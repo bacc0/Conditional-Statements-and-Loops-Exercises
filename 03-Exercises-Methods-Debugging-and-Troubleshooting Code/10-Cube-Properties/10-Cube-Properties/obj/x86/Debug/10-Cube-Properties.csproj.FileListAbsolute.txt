@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/bin/Debug/10-Cube-Properties.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/bin/Debug/10-Cube-Properties.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/obj/x86/Debug/10-Cube-Properties.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/obj/x86/Debug/10-Cube-Properties.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/obj/x86/Debug/10-Cube-Properties.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/10-Cube-Properties/10-Cube-Properties/obj/x86/Debug/10-Cube-Properties.pdb

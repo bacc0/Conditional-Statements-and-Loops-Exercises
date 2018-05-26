@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/bin/Debug/04-Numbers-in-Reversed-Order.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/bin/Debug/04-Numbers-in-Reversed-Order.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/obj/x86/Debug/04-Numbers-in-Reversed-Order.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/obj/x86/Debug/04-Numbers-in-Reversed-Order.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/obj/x86/Debug/04-Numbers-in-Reversed-Order.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/04-Numbers-in-Reversed-Order/04-Numbers-in-Reversed-Order/obj/x86/Debug/04-Numbers-in-Reversed-Order.pdb

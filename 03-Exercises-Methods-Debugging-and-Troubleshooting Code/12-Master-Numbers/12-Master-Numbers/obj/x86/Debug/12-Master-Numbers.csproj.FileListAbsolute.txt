@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/bin/Debug/12-Master-Numbers.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/bin/Debug/12-Master-Numbers.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/obj/x86/Debug/12-Master-Numbers.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/obj/x86/Debug/12-Master-Numbers.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/obj/x86/Debug/12-Master-Numbers.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/12-Master-Numbers/12-Master-Numbers/obj/x86/Debug/12-Master-Numbers.pdb

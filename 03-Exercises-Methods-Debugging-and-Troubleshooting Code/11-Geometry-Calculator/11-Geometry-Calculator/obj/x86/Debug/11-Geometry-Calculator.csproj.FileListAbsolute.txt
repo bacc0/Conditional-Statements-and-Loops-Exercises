@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/bin/Debug/11-Geometry-Calculator.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/bin/Debug/11-Geometry-Calculator.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/obj/x86/Debug/11-Geometry-Calculator.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/obj/x86/Debug/11-Geometry-Calculator.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/obj/x86/Debug/11-Geometry-Calculator.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/11-Geometry-Calculator/11-Geometry-Calculator/obj/x86/Debug/11-Geometry-Calculator.pdb

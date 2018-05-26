@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{73A6DDFB-502B-4E4B-9C0B-608636AF940B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="13-Factorial/Program.cs">
+    <Files>
+      <File FileName="13-Factorial/Program.cs" Line="10" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="13-Factorial" expanded="True">
+            <Node name="13-Factorial" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.13-Factorial PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

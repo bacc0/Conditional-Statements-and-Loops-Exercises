@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/bin/Debug/01-Hello-Name.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/bin/Debug/01-Hello-Name.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/obj/x86/Debug/01-Hello-Name.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/obj/x86/Debug/01-Hello-Name.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/obj/x86/Debug/01-Hello-Name.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/01-Hello-Name/01-Hello-Name/obj/x86/Debug/01-Hello-Name.pdb

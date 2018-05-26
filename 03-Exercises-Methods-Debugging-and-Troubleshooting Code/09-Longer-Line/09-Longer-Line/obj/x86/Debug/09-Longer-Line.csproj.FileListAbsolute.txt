@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/obj/x86/Debug/09-Longer-Line.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/obj/x86/Debug/09-Longer-Line.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/bin/Debug/09-Longer-Line.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/bin/Debug/09-Longer-Line.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/obj/x86/Debug/09-Longer-Line.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/09-Longer-Line/09-Longer-Line/obj/x86/Debug/09-Longer-Line.pdb

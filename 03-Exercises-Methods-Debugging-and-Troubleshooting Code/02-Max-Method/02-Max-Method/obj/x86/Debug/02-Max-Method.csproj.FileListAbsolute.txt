@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/obj/x86/Debug/02-Max-Method.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/obj/x86/Debug/02-Max-Method.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/bin/Debug/02-Max-Method.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/bin/Debug/02-Max-Method.pdb
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/obj/x86/Debug/02-Max-Method.exe
+/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/02-Max-Method/02-Max-Method/obj/x86/Debug/02-Max-Method.pdb
