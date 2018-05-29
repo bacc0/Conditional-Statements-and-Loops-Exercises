@@ -1,6 +1,0 @@
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/obj/x86/Debug/06-Prime-Checker.csprojResolveAssemblyReference.cache
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/obj/x86/Debug/06-Prime-Checker.csproj.CoreCompileInputs.cache
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/bin/Debug/06-Prime-Checker.exe
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/bin/Debug/06-Prime-Checker.pdb
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/obj/x86/Debug/06-Prime-Checker.exe
-/Users/bewater/Desktop/Exercises-Methods-Debugging-and-Troubleshooting Code/06-Prime-Checker/06-Prime-Checker/obj/x86/Debug/06-Prime-Checker.pdb
