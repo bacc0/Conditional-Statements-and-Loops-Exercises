@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{60116D75-B271-49DB-A94F-4DFBE99EDFCE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="02-otate-and-Sum/Program.cs">
+    <Files>
+      <File FileName="02-otate-and-Sum/Program.cs" Line="13" Column="1" />
+      <File FileName="../01-Largest-Common-End.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.02-otate-and-Sum PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

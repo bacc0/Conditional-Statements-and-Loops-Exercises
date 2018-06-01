@@ -1,0 +1,11 @@
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/bin/Debug/netcoreapp2.0/02-otate-and-Sum.deps.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/bin/Debug/netcoreapp2.0/02-otate-and-Sum.runtimeconfig.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/bin/Debug/netcoreapp2.0/02-otate-and-Sum.runtimeconfig.dev.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/bin/Debug/netcoreapp2.0/02-otate-and-Sum.dll
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/bin/Debug/netcoreapp2.0/02-otate-and-Sum.pdb
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.csprojResolveAssemblyReference.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.csproj.CoreCompileInputs.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.AssemblyInfoInputs.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.AssemblyInfo.cs
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.dll
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/02-otate-and-Sum/02-otate-and-Sum/obj/Debug/netcoreapp2.0/02-otate-and-Sum.pdb
