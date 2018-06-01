@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays.csproj",
-      "projectName": "05-Compare-Char-Arrays",
-      "projectPath": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays.csproj",
+      "projectUniqueName": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes.csproj",
+      "projectName": "04-Sieve-of-Eratosthenes",
+      "projectPath": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes.csproj",
       "packagesPath": "/Users/bacco/.nuget/packages/",
-      "outputPath": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/obj",
+      "outputPath": "/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

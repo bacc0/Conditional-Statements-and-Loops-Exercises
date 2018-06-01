@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F0B156DD-F24F-4683-93F1-AF1D1BAEE904}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="04-Sieve-of-Eratosthenes/Program.cs">
+    <Files>
+      <File FileName="04-Sieve-of-Eratosthenes/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.04-Sieve-of-Eratosthenes PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
