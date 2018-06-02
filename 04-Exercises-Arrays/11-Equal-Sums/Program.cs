@@ -8,34 +8,34 @@ namespace EqualSums
     {
         public static void Main(string[] args)
         {
-            int[] arr = Console.ReadLine()
-                               .Split(' ')
-                               .Select(int.Parse)
-                               .ToArray();
-            int leftSum  = 0;
+          int[] numbers = Console.ReadLine()
+                                 .Split(' ')
+                                 .Select(int.Parse)
+                                 .ToArray();
             int rightSum = 0;
-            bool isEqual = false;
 
-            for (int i = 0; i < arr.Length ; i++)
+            foreach (var number in numbers)
             {
-                for (int left = 0; left < i; left++)
-                {
-                    leftSum += arr[left];
-                }
-                for (int right = i + 1; right < arr.Length; right++)
-                {
-                    rightSum += arr[right];
-                }
+                rightSum += number;
+            }
+            
+            int  leftSum = 0;
+            bool  index  = false;
+
+            for (int i = 0; i < numbers.Length ; i++)
+            {
+                int curentNum = numbers[i];
+                rightSum -= curentNum;
+
                 if (leftSum == rightSum)
                 {
+                    index = true;
                     Console.WriteLine(i);
-                    isEqual = true;
                     break;
                 }
-                leftSum  = 0;
-                rightSum = 0;
+                leftSum += curentNum;
             }
-            if (!isEqual)
+            if (!index)
             {
                 Console.WriteLine("no");
             }
