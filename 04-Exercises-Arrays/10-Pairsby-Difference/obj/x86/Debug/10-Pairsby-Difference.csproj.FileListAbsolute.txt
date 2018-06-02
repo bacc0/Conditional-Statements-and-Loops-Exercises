@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/bin/Debug/10-Pairsby-Difference.exe
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/bin/Debug/10-Pairsby-Difference.pdb
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/obj/x86/Debug/10-Pairsby-Difference.csprojAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/obj/x86/Debug/10-Pairsby-Difference.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/obj/x86/Debug/10-Pairsby-Difference.exe
+/Users/bewater/Desktop/Exercises-Arrays/10-Pairsby-Difference/obj/x86/Debug/10-Pairsby-Difference.pdb
