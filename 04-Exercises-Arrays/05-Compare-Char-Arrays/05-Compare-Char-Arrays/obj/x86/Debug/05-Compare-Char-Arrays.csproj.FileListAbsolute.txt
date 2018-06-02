@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/bin/Debug/05-Compare-Char-Arrays.exe
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/bin/Debug/05-Compare-Char-Arrays.pdb
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/obj/x86/Debug/05-Compare-Char-Arrays.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/obj/x86/Debug/05-Compare-Char-Arrays.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/obj/x86/Debug/05-Compare-Char-Arrays.exe
+/Users/bewater/Desktop/Exercises-Arrays/05-Compare-Char-Arrays/05-Compare-Char-Arrays/obj/x86/Debug/05-Compare-Char-Arrays.pdb
