@@ -8,39 +8,30 @@ namespace _03_Fold_and_Sum
         static void Main(string[] args)
         {
             int[] arr = Console.ReadLine()
-                                 .Split()
-                                 .Select(int.Parse)
-                                 .ToArray();
+                               .Split(' ')
+                               .Select(int.Parse)
+                               .ToArray();
+            
+            var k = arr.Length / 4;
 
-            int k = arr.Length / 4;
+            int[] upper = new int[k * 2];
+            int[] lower = new int[k * 2];
+            int[] sum   = new int[k * 2];
 
-            int[] left  = new int[k];
-            int[] mid   = new int[2 * k];
-            int[] right = new int[k];
-
-            for (int i = 0; i < k; i++)
+            for (int i = 0; i < k ;i++)
             {
-                left[i]  = arr[i];
-                right[i] = arr[arr.Length - 1 - i];
+                upper[i] = arr[arr.Length - k * 3 - 1 - i];
+                upper[k + i] = arr[arr.Length - 1 - i];
             }
-            Array.Reverse(left);
-
-            int[] upper = new int[2 * k];
-
-            for (int i = 0; i < k; i++)
+            for (int i = 0; i < k * 2 ; i++)
             {
-                upper[i]     = left[i];
-                upper[i + k] = right[i];
+                lower[i] = arr[k + i];
             }
-
-            int[] sum = new int[2 * k];
-
-            for (int i = 0; i < 2 * k; i++)
+            for (int i = 0; i < k * 2; i++)
             {
-                mid[i] = arr[ k + i];
-                sum[i] = upper[i] + mid[i];
+                sum[i] = upper[i] + lower[i];
             }
-            Console.WriteLine(string.Join(" ", sum));
+            Console.WriteLine(string.Join(" ",sum));
         }
     }
 }
