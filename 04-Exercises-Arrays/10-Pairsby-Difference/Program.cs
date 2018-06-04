@@ -8,25 +8,26 @@ namespace PairsbyDifference
     {
         public static void Main(string[] args)
         {
-             int[] arr = Console.ReadLine()
-                               .Split(' ')
-                               .Select(int.Parse)
-                               .ToArray();
-            int diff = int.Parse(Console.ReadLine());
-            int counter = 0;
+            int[] arr = Console.ReadLine()
+                                .Split(' ')
+                                .Select(int.Parse)
+                                .ToArray();
+            int difference = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < arr.Length ; i++)
+            int count = 0;
+           
+            for (int i = 0; i < arr.Length; i++) 
             {
                 for (int j = i; j < arr.Length; j++)
                 {
-                    if ( arr[i] != arr[j] &&
-                         Math.Abs(arr[i] - arr[j]) == diff )
+                    Console.WriteLine($"{arr[i]} - {arr[j]} = {Math.Abs(arr[i] - arr[j])}");
+                    if (Math.Abs(arr[i] - arr[j]) == difference)
                     {
-                        counter++;
+                        count++;
                     }
                 }
             }
-            Console.WriteLine(counter);
+            Console.WriteLine(count);
         }
     }
 }
