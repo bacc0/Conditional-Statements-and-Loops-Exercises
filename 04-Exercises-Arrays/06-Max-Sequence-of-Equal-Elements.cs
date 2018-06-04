@@ -1,49 +1,54 @@
-﻿using System;
+using System;
 using System.Linq;
+using System.Collections.Generic;
 
-namespace Application
+
+namespace _04_Sieve_Оf_Eratosthenes
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-
             int[] arr = Console.ReadLine()
-                               .Split(' ')
-                               .Select(int.Parse).ToArray();
-            int counter  = 1;
-            int countMax = 0;
-            int numMax   = 0;
+                                .Split(' ')
+                                .Select(int.Parse)
+                                .ToArray();
+            int counter    = 1;
+            int counterMax = 0;
+            int position   = 0;
 
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length - 1; i++) 
             {
-                if (arr[i] == arr[i + 1])
+                if (arr[i] < arr[i + 1])
                 {
                     counter++;
-
                 }
                 else
                 {
-                    if (counter > countMax)
+                    if (counter > counterMax)
                     {
-                        countMax = counter;
-                        numMax = arr[i];
+                        counterMax = counter;
+                        position = i + 1;
                     }
                     counter = 1;
                 }
                 if (i + 1 == arr.Length - 1)
                 {
-                    if (counter > countMax)
+                    if (counter > counterMax)
                     {
-                        countMax = counter;
-                        numMax = arr[i];
+                        counterMax = counter;
+                        position = arr.Length  ;
                     }
                 }
             }
-            for (int i = 0; i < countMax; i++)
+            int index = position - counterMax;
+
+
+            for (int i = 0; i < counterMax; i++) 
             {
-                Console.Write(numMax + " ");
+                Console.Write(arr[index++] + " ");
             }
         }
     }
 }
+    
