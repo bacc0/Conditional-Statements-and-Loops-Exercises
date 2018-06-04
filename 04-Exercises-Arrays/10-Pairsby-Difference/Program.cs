@@ -20,7 +20,6 @@ namespace PairsbyDifference
             {
                 for (int j = i; j < arr.Length; j++)
                 {
-                    Console.WriteLine($"{arr[i]} - {arr[j]} = {Math.Abs(arr[i] - arr[j])}");
                     if (Math.Abs(arr[i] - arr[j]) == difference)
                     {
                         count++;
