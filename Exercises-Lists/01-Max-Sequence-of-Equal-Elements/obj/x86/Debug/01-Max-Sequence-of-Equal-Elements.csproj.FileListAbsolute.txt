@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/bin/Debug/01-Max-Sequence-of-Equal-Elements.exe
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/bin/Debug/01-Max-Sequence-of-Equal-Elements.pdb
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/obj/x86/Debug/01-Max-Sequence-of-Equal-Elements.csprojAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/obj/x86/Debug/01-Max-Sequence-of-Equal-Elements.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/obj/x86/Debug/01-Max-Sequence-of-Equal-Elements.exe
+/Users/bewater/Desktop/Exercises-Lists/01-Max-Sequence-of-Equal-Elements/obj/x86/Debug/01-Max-Sequence-of-Equal-Elements.pdb
