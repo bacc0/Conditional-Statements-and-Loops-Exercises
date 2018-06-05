@@ -29,13 +29,14 @@ namespace ArrayManipulator
                 else if (commands[0] == "addMany")
                 {
                     int index = int.Parse(commands[1]);
-                    numbers.InsertRange(index, commands.Skip(2)
-                                                       .Select(int.Parse));
+                    numbers.InsertRange(index, commands
+                                                 .Skip(2)
+                                                 .Select(int.Parse));
                 }
                 else if (commands[0] == "contains")
                 {
                     int element = int.Parse(commands[1]);
-                    if(numbers.Contains(element))
+                    if (numbers.Contains(element))
                     {
                         Console.WriteLine(numbers.IndexOf(element));
                     }
@@ -51,11 +52,10 @@ namespace ArrayManipulator
                 }
                 else if (commands[0] == "shift")
                 {
-                    int position = int.Parse( commands[1] )
-                                              % numbers.Count;
-                    var helper = numbers.Skip(position)
-                                        .ToList();
-                    for (int i = 0; i < position; i++)
+                    int position = int.Parse
+                                      (commands[1]) % numbers.Count;
+                    var helper = numbers.Skip(position).ToList();
+                    for (int i = 0; i < position ; i++)
                     {
                         helper.Add(numbers[i]);
                     }
@@ -63,17 +63,19 @@ namespace ArrayManipulator
                 }
                 else if (commands[0] == "sumPairs")
                 {
-                    int cycles  = numbers.Count / 2;
-                    for (int i = 0; i < cycles ; i++)
+                    int lenght = numbers.Count / 2;
+
+                    for (int i = 0; i < lenght; i++)
                     {
                         numbers[i] += numbers[i + 1];
                         numbers.RemoveAt(i + 1);
                     }
-                    commands = Console.ReadLine().Split(' ')
-                                                 .ToList();
                 }
+                commands = Console.ReadLine()
+                                           .Split(' ')
+                                           .ToList();
             }
-            Console.WriteLine("[" + string.Join(", ", numbers) + "]");
+            Console.WriteLine("[" + string.Join(", ",numbers) + "]");
         }
     }
 }
