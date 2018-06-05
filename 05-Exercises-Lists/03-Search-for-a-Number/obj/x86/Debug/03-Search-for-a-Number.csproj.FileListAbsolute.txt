@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/bin/Debug/03-Search-for-a-Number.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/bin/Debug/03-Search-for-a-Number.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/obj/x86/Debug/03-Search-for-a-Number.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/obj/x86/Debug/03-Search-for-a-Number.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/obj/x86/Debug/03-Search-for-a-Number.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/03-Search-for-a-Number/obj/x86/Debug/03-Search-for-a-Number.pdb
