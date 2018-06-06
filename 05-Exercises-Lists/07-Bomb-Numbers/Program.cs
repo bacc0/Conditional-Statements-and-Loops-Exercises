@@ -6,6 +6,7 @@ using System.Linq;
 namespace BombNumbers
 {
     class MainClass
+
     {
         public static void Main(string[] args)
         {
