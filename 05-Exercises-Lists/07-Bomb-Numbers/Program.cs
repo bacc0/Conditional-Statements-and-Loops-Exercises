@@ -10,42 +10,47 @@ namespace BombNumbers
     {
         public static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine()
-                                       .Split(' ')
-                                       .Select(int.Parse)
-                                       .ToList();
+            List<int> nums = Console.ReadLine()
+                                    .Split(' ')
+                                    .Select(int.Parse)
+                                    .ToList();
+            
+            int[]  input = Console.ReadLine()
+                                  .Split(' ')
+                                  .Select(int.Parse)
+                                  .ToArray();
 
-            List<int> comands = Console.ReadLine()
-                                       .Split(' ')
-                                       .Select(int.Parse)
-                                       .ToList();
-            int sum   = 0;
-            int bomb  = comands[0];
-            int power = comands[1];
+            int bomb  = input[0];
+            int range = input[1];
 
-            while (numbers.Contains(bomb))
+            int bombIndex = nums.IndexOf(bomb);
+
+            while (bombIndex != -1)
             {
-                int position = numbers.IndexOf(bomb);
+                int left  = bombIndex - range;
+                int right = bombIndex + range;
 
-                if( position - power < 0  && 
-                    position + power > numbers.Count )
+                if (left < 0)
                 {
-                    numbers.Clear();
+                    left = 0;
                 }
-                else if(position - power < 0 )
+                if (right > nums.Count - 1)
                 {
-                    numbers.RemoveRange(0, 1  + power + position - 0);
+                    right = nums.Count - 1;
                 }
-                else if (position + power > numbers.Count)
-                {
-                    numbers.RemoveRange(position - power, power + 1 + numbers.Count - 1 - position);
-                }
-                else
-                {
-                    numbers.RemoveRange(position - power, 2 * power + 1);
-                }
+
+                int count = right - left + 1; 
+                nums.RemoveRange(left, count);
+                bombIndex = nums.IndexOf(bomb);
             }
-            Console.WriteLine(sum = numbers.Sum());
+            
+            int sum = 0;
+            
+            foreach (var num in nums)
+            {
+                sum += num;
+            }
+            Console.WriteLine(sum);
         }
     }
 }
