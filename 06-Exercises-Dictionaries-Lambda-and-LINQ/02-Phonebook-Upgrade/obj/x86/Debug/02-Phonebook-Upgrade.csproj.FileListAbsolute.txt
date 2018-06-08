@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/bin/Debug/02-Phonebook-Upgrade.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/bin/Debug/02-Phonebook-Upgrade.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/obj/x86/Debug/02-Phonebook-Upgrade.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/obj/x86/Debug/02-Phonebook-Upgrade.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/obj/x86/Debug/02-Phonebook-Upgrade.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/02-Phonebook-Upgrade/obj/x86/Debug/02-Phonebook-Upgrade.pdb
