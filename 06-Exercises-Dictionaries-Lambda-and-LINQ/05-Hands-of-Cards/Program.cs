@@ -1,74 +1,74 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using System.Linq;
+using System.Collections.Generic;
 
-namespace HandsofCards
+namespace _04_Sieve_Оf_Eratosthenes
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             var players = new Dictionary<string, List<string>>();
 
-
-
             while (true)
             {
-                string line =Console.ReadLine();
+                var line = Console.ReadLine();
 
                 if (line == "JOKER")
                 {
                     break;
                 }
-                string[] tokens = line.Split(':');
 
-                string playerName = tokens[0];
+                var tokens = line.Split(':');
 
-                string[] cards = tokens[1].Trim()
-                                          .Split(new char[] { ' ', ',' }, 
-                                                 StringSplitOptions.RemoveEmptyEntries);
+                var name  = tokens[0];
+                var cards = tokens[1]
+                                .Split(new char[] { ' ', ',' }
+                                       ,StringSplitOptions
+                                       .RemoveEmptyEntries);
 
-                if (players.ContainsKey(playerName) == false)
+                if ( ! players.ContainsKey(name))
                 {
-                    players.Add(playerName, new List<string>());
+                    players[name] = new List<string>();
                 }
-                players[playerName].AddRange(cards);
-
+                players[name].AddRange(cards);
             }
-           var power = new Dictionary<string, int>();
 
-            for (int i = 2; i < 10; i++) 
+            var powers = new Dictionary<string, int>();
+
+            for (int i = 2; i < 10; i++)
             {
-                power.Add(i.ToString(), i);
+                powers.Add(i.ToString(), i);
             }
-            power.Add("1", 10);
+            powers.Add("1", 10);  
 
-            power.Add("J", 11);
-            power.Add("Q", 12);
-            power.Add("K", 13);
-            power.Add("A", 14);
+            powers.Add("J", 11);  
+            powers.Add("Q", 12);  
+            powers.Add("K", 13);  
+            powers.Add("A", 14); 
 
-            power.Add("C", 1);
-            power.Add("D", 2);
-            power.Add("H", 3);
-            power.Add("S", 4);
+            powers.Add("C", 1);  
+            powers.Add("D", 2);
+            powers.Add("H", 3);
+            powers.Add("S", 4);
 
             foreach (var player in players)
             {
-                List<string> cards = player.Value
-                                        .Distinct()
-                                        .ToList();
-                int sum = 0;
+                var cards = player.Value
+                                  .Distinct()
+                                  .ToList();
+                var sum = 0;
 
                 foreach (var card in cards)
                 {
-                    string cardPowerStr = card[0].ToString();
-                    string cardSuitStr = card[card.Length - 1].ToString();
+                    var cardPowerStr = card[0].ToString();
+                    var cardColorStr = card[card.Length - 1].ToString();
 
-                    int cardPower = power[cardPowerStr];
-                    int cardSuit  = power[cardSuitStr];
+                    int cardPower = powers[cardPowerStr];
+                    int cardColor = powers[cardColorStr];
 
-                    sum += cardPower * cardSuit;
+                    sum += cardPower * cardColor;
+
                 }
                 Console.WriteLine($"{player.Key}: {sum}");
             }
