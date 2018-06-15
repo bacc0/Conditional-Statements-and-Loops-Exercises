@@ -49,7 +49,7 @@ namespace user-Logs
 
                 foreach (var pairas in pair.Value)
                 { 
-                    if (++i == count) //this is the last item
+                    if (++i == count)              //   this is the last item
                     {
                         Console.Write($"{pairas.Key} => {pairas.Value}. "); 
                     }
