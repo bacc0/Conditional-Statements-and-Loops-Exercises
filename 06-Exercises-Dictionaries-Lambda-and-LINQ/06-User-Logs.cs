@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace User-Logs
+namespace user-Logs
 {
     class MainClass
     {
@@ -43,15 +43,12 @@ namespace User-Logs
             foreach (var pair in users)
             {
                 Console.WriteLine($"{pair.Key}: ");
-
-                var a = pair.Value.Values;
-
+                
                 var i = 0;
                 var count = pair.Value.Count();
 
                 foreach (var pairas in pair.Value)
-                {
-                    
+                { 
                     if (++i == count) //this is the last item
                     {
                         Console.Write($"{pairas.Key} => {pairas.Value}. "); 
@@ -61,7 +58,6 @@ namespace User-Logs
                         Console.Write($"{pairas.Key} => {pairas.Value}, "); 
                     }
                 }
-
                 Console.WriteLine();
             }
         }
