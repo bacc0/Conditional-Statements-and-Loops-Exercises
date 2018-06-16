@@ -1,0 +1,6 @@
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/bin/Debug/03-Unicode-Characters.exe
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/bin/Debug/03-Unicode-Characters.pdb
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/obj/x86/Debug/03-Unicode-Characters.csprojResolveAssemblyReference.cache
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/obj/x86/Debug/03-Unicode-Characters.csproj.CoreCompileInputs.cache
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/obj/x86/Debug/03-Unicode-Characters.exe
+/Users/bacco/Desktop/08-Exercises-Strings-and-TextProcessing/03-Unicode-Characters/03-Unicode-Characters/obj/x86/Debug/03-Unicode-Characters.pdb
