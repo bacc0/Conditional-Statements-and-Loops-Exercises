@@ -8,40 +8,41 @@ namespace test2
     {
         public static void Main(string[] args)
         {
-            var countries = new Dictionary<string, Dictionary<string, long>>();
-            var input = Console.ReadLine().Split('|').ToArray();
+            var populationCounter = new Dictionary<string, Dictionary<string, long>>();
 
-            var town = "";
-            var state = "";
-            var population = 0;
-
-            while (input[0] != "report")
+            while (true)
             {
-                town = input[0];
-                state = input[1];
-                population = int.Parse(input[2]);
+                var input = Console.ReadLine().Split('|').ToList();
 
-
-                if ( ! countries.ContainsKey(state))
+                if(input[0].Equals("report"))
                 {
-                    countries[state] = new Dictionary<string, long>();
+                    break;
                 }
-                if ( ! countries[state].ContainsKey(town))
+
+                var state = input[1];
+                var town  = input[0];
+                var population = long.Parse(input[2]);
+
+
+                if( ! populationCounter.ContainsKey(state))
                 {
-                    countries[state][town] = 0;
+                    populationCounter[state] = new Dictionary<string, long>();
                 }
-                countries[state][town] = population;
 
+                if ( !  populationCounter[state].ContainsKey(town))
+                {
+                    populationCounter[state][town] = 0;
+                }
 
-                input = Console.ReadLine().Split('|').ToArray();
+                populationCounter[state][town] = population;
+
             }
 
-            
-            foreach (var pair in countries.OrderByDescending( x => x.Value.Values.Sum()))
+            foreach (var pair in populationCounter.OrderByDescending( x => x.Value.Values.Sum()))
             {
                 Console.WriteLine($"{pair.Key} (total population: {pair.Value.Values.Sum()})");
 
-                foreach (var pairTown in pair.Value.OrderByDescending( y => y.Value))
+                foreach (var pairTown in pair.Value.OrderByDescending( x => x.Value))
                 {
                     Console.WriteLine($"=>{pairTown.Key}: {pairTown.Value}");
                 }
