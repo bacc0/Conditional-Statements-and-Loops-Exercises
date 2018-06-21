@@ -8,54 +8,55 @@ namespace user-Logs
     {
         public static void Main(string[] args)
         {
-            var users = new SortedDictionary<string, Dictionary<string, int>>();
-            var input = Console.ReadLine().Split().ToList();
+            var userHolder = new SortedDictionary<string, Dictionary<string, int>>();
 
-            var user = "";
-            var ipS = "";
-           
-            while ( input[0] != "end")
+            while (true)
             {
-                try
-                {
-                    ipS = input[0].Substring(3);
-                    user = input[2].Substring(5);
-                }
-                catch
+                var input = Console.ReadLine().Split()
+                                              .ToList();
+
+                if (input[0].Equals("end"))
                 {
                     break;
                 }
 
-                if ( ! users.ContainsKey(user))
+                var ipS  = input[0].Substring(3);
+                var user = input[2].Substring(5);
+
+
+                if (!userHolder.ContainsKey(user))
                 {
 
-                    users[user] = new Dictionary<string, int>();
+                    userHolder[user] = new Dictionary<string, int>();
                 }
-                if ( ! users[user].ContainsKey(ipS))
+                if (!userHolder[user].ContainsKey(ipS))
                 {
-                    users[user][ipS] = 0 ;
+                    userHolder[user][ipS] = 0;
                 }
-                users[user][ipS] += 1;
-
-                input = Console.ReadLine().Split().ToList();
+                userHolder[user][ipS] += 1;
             }
 
-            foreach (var pair in users)
+            foreach (var pair in userHolder)
             {
-                Console.WriteLine($"{pair.Key}: ");
-                
-                var i = 0;
-                var count = pair.Value.Count();
+                Console.WriteLine($"{pair.Key}:");
 
-                foreach (var pairas in pair.Value)
-                { 
-                    if (++i == count)              //   this is the last item
+
+                var lenght  = pair.Value.Count;
+                var counter = 0;
+
+                foreach (var pairS in pair.Value)
+                {
+                    ++counter;
+
+                    Console.Write($"{pairS.Key} => {pairS.Value}");
+
+                    if (counter != lenght)
                     {
-                        Console.Write($"{pairas.Key} => {pairas.Value}. "); 
+                        Console.Write(", ");
                     }
                     else
                     {
-                        Console.Write($"{pairas.Key} => {pairas.Value}, "); 
+                        Console.Write(".");
                     }
                 }
                 Console.WriteLine();
