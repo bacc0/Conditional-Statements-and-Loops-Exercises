@@ -44,15 +44,11 @@ namespace Phonebook
                         result += $"{pair.Key} => {pair.Value}, ";
                     }
 
-                result = result.TrimEnd(new Char[] { ' ', ',' });
-
-                Console.Write(result);
-                Console.WriteLine(".");
+                Console.WriteLine(result.TrimEnd(new Char[] { ' ', ',' }) + ".");
             }
         }
     }
 }
-
 
 // using System;
 // using System.Collections.Generic;
