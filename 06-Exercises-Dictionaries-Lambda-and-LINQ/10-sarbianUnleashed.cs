@@ -3,63 +3,53 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace sarbianUnleashed
+namespace Phonebook
 {
     class MainClass
     {
         public static void Main(string[] args)
-
         {
-            var dict = new Dictionary<string, Dictionary<string, int>>();
+            var concerts = new Dictionary<string, Dictionary<string, int>>();
 
             while (true)
             {
-                string input = Console.ReadLine();
+                var input = Console.ReadLine();
 
-                if (input == "End")
+                if (input.Equals("End"))
                 {
                     break;
                 }
 
+                string pattern = @"(([a-zA-Z]+\s){1,3})@(([a-zA-Z]+\s){1,3})(\d+)\s(\d+)";
+                Match match = Regex.Match(input, pattern);
 
-
-                string correctInputPattern = @"(([a-zA-Z]+\s){1,3})@(([a-zA-Z]+\s){1,3})(\d+)\s(\d+)";
-
-
-
-                if (Regex.IsMatch(input, correctInputPattern))
+                if (match.Groups[3].Value != "")
                 {
-                    Match match = Regex.Match(input, correctInputPattern);
-
                     var place = match.Groups[3].Value.Trim();
 
                     var singer = match.Groups[1].Value.Trim();
 
-                    var ticketsPrice = int.Parse(match.Groups[5].Value);
-                    var ticketsCount = int.Parse(match.Groups[6].Value);
+                    var price = (match.Groups[5].Value);
+                    var tickets = (match.Groups[6].Value);
 
-                    var totalMoney = ticketsCount * ticketsPrice;
+                    int profit = int.Parse(tickets) * int.Parse(price);
 
-
-
-                    if ( ! dict.ContainsKey(place))
+                    if (!concerts.ContainsKey(place))
                     {
-                        dict[place] = new Dictionary<string, int>();
+                        concerts[place] = new Dictionary<string, int>();
                     }
-                    if ( ! dict[place].ContainsKey(singer))
+                    if (!concerts[place].ContainsKey(singer))
                     {
-                        dict[place][singer]= 0;
+                        concerts[place][singer] = 0;
                     }
-                    dict[place][singer] += totalMoney;
-
+                    concerts[place][singer] += profit;
                 }
             }
-
-            foreach (var place in dict)
+            foreach (var place in concerts)
             {
                 Console.WriteLine($"{place.Key}");
-
-                foreach (var pair in place.Value.OrderByDescending( x => x.Value))
+                
+                foreach (var pair in place.Value.OrderByDescending(x => x.Value))
                 {
                     Console.WriteLine($"#  {pair.Key} -> {pair.Value}");
                 }
