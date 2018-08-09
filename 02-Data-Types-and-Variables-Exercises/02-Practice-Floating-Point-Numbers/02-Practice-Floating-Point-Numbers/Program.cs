@@ -11,7 +11,6 @@ namespace PracticeFloatingPointNumbers
             decimal num3 = 7.8184261974584555216535342341m;
             
             Console.WriteLine(num1);
-            
             Console.WriteLine(num2);
             
             Console.WriteLine(num3);
