@@ -12,7 +12,6 @@ namespace PracticeFloatingPointNumbers
             
             Console.WriteLine(num1);
             Console.WriteLine(num2);
-            
             Console.WriteLine(num3);
         }
     }
