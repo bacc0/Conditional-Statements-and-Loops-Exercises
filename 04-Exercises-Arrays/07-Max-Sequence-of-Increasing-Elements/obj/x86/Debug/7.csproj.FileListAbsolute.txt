@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Arrays/7/bin/Debug/7.exe
+/Users/bewater/Desktop/Exercises-Arrays/7/bin/Debug/7.pdb
+/Users/bewater/Desktop/Exercises-Arrays/7/obj/x86/Debug/7.csprojAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Arrays/7/obj/x86/Debug/7.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Arrays/7/obj/x86/Debug/7.exe
+/Users/bewater/Desktop/Exercises-Arrays/7/obj/x86/Debug/7.pdb

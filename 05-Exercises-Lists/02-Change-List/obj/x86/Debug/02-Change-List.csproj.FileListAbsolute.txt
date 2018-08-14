@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/bin/Debug/02-Change-List.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/bin/Debug/02-Change-List.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/obj/x86/Debug/02-Change-List.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/obj/x86/Debug/02-Change-List.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/obj/x86/Debug/02-Change-List.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/02-Change-List/obj/x86/Debug/02-Change-List.pdb

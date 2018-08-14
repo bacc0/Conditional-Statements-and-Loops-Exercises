@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/bin/Debug/09-ndex-of-Letters.exe
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/bin/Debug/09-ndex-of-Letters.pdb
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/obj/x86/Debug/09-ndex-of-Letters.csprojAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/obj/x86/Debug/09-ndex-of-Letters.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/obj/x86/Debug/09-ndex-of-Letters.exe
+/Users/bewater/Desktop/Exercises-Arrays/09-ndex-of-Letters/obj/x86/Debug/09-ndex-of-Letters.pdb

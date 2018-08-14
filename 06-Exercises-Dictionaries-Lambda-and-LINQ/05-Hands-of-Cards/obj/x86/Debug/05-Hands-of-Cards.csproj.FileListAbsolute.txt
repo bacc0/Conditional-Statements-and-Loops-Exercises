@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/bin/Debug/05-Hands-of-Cards.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/bin/Debug/05-Hands-of-Cards.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/obj/x86/Debug/05-Hands-of-Cards.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/obj/x86/Debug/05-Hands-of-Cards.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/obj/x86/Debug/05-Hands-of-Cards.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/05-Hands-of-Cards/obj/x86/Debug/05-Hands-of-Cards.csprojResolveAssemblyReference.cache

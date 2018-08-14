@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/bin/Debug/07-Bomb-Numbers.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/bin/Debug/07-Bomb-Numbers.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/obj/x86/Debug/07-Bomb-Numbers.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/obj/x86/Debug/07-Bomb-Numbers.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/obj/x86/Debug/07-Bomb-Numbers.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/07-Bomb-Numbers/obj/x86/Debug/07-Bomb-Numbers.pdb

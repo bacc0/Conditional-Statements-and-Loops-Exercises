@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/bin/Debug/01-Phonebook.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/bin/Debug/01-Phonebook.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/obj/x86/Debug/01-Phonebook.csprojResolveAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/obj/x86/Debug/01-Phonebook.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/obj/x86/Debug/01-Phonebook.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/01-Phonebook/obj/x86/Debug/01-Phonebook.pdb

@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/bin/Debug/06-Sum-Reversed-Numbers.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/bin/Debug/06-Sum-Reversed-Numbers.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/obj/x86/Debug/06-Sum-Reversed-Numbers.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/obj/x86/Debug/06-Sum-Reversed-Numbers.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/obj/x86/Debug/06-Sum-Reversed-Numbers.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/06-Sum-Reversed-Numbers/obj/x86/Debug/06-Sum-Reversed-Numbers.pdb

@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/bin/Debug/03-A-Miner-Task.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/bin/Debug/03-A-Miner-Task.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/obj/x86/Debug/03-A-Miner-Task.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/obj/x86/Debug/03-A-Miner-Task.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/obj/x86/Debug/03-A-Miner-Task.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/03-A-Miner-Task/obj/x86/Debug/03-A-Miner-Task.pdb

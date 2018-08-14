@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/bin/Debug/11-Equal-Sums.exe
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/bin/Debug/11-Equal-Sums.pdb
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/obj/x86/Debug/11-Equal-Sums.csprojAssemblyReference.cache
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/obj/x86/Debug/11-Equal-Sums.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/obj/x86/Debug/11-Equal-Sums.exe
+/Users/bewater/Desktop/Exercises-Arrays/11-Equal-Sums/obj/x86/Debug/11-Equal-Sums.pdb

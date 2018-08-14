@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{7A7DD284-C156-4B1F-B87A-E6BE0EE87EF6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../07-Bomb-Numbers/Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="74" Column="46" />
+      <File FileName="../07-Bomb-Numbers/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.05-Array-Manipulator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

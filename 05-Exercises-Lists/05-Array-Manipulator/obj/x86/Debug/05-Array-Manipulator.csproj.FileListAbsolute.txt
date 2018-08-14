@@ -1,0 +1,6 @@
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/bin/Debug/05-Array-Manipulator.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/bin/Debug/05-Array-Manipulator.pdb
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/obj/x86/Debug/05-Array-Manipulator.csprojAssemblyReference.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/obj/x86/Debug/05-Array-Manipulator.csproj.CoreCompileInputs.cache
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/obj/x86/Debug/05-Array-Manipulator.exe
+/Users/bewater/Desktop/GitHud/Programming-Fundamentals-SoftUni/05-Exercises-Lists/05-Array-Manipulator/obj/x86/Debug/05-Array-Manipulator.pdb

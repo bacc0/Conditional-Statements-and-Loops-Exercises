@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-ndex-of-Letters", "09-ndex-of-Letters.csproj", "{FA06EC18-2038-4328-A741-6F5448A01133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA06EC18-2038-4328-A741-6F5448A01133}.Debug|x86.ActiveCfg = Debug|x86
+		{FA06EC18-2038-4328-A741-6F5448A01133}.Debug|x86.Build.0 = Debug|x86
+		{FA06EC18-2038-4328-A741-6F5448A01133}.Release|x86.ActiveCfg = Release|x86
+		{FA06EC18-2038-4328-A741-6F5448A01133}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
