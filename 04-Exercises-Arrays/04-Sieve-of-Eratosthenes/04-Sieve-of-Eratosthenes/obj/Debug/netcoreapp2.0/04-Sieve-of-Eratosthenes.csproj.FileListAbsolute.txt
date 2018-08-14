@@ -1,0 +1,11 @@
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/bin/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.deps.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/bin/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.runtimeconfig.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/bin/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.runtimeconfig.dev.json
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/bin/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.dll
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/bin/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.pdb
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.csprojResolveAssemblyReference.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.csproj.CoreCompileInputs.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.AssemblyInfoInputs.cache
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.AssemblyInfo.cs
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.dll
+/Users/bacco/Documents/Programming-Fundamentals/04-Exercises-Arrays/04-Sieve-of-Eratosthenes/04-Sieve-of-Eratosthenes/obj/Debug/netcoreapp2.0/04-Sieve-of-Eratosthenes.pdb
