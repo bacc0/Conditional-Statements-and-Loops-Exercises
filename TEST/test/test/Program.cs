@@ -15,29 +15,29 @@ namespace test
                                        .Select(int.Parse)
                                        .ToList();
 
-            var counter = 1;
-            var counterMax = 0;
-            var numberMax = 0;
+            var count = 1;
+            var maxCount = 0;
+            var maxNum = 0;
 
             for (int i = 0; i < numbers.Count - 1; i++)
             {
                 if (numbers[i] == numbers[i + 1])
                 {
-                    counter++;
-                    if (counterMax < counter)
+                    count++;
+                    if (maxCount < count)
                     {
-                        counterMax = counter;
-                        numberMax = numbers[i];
+                        maxCount = count;
+                        maxNum = numbers[i];
                     }
                 }
                 else
                 {
-                    counter = 1;
+                    count = 1;
                 }
             }
-            for (int i = 0; i < counterMax; i++)
+            for (int i = 0; i < maxCount; i++)
             {
-                Console.Write(numberMax + " ");
+                Console.Write($"{maxNum} ");
             }
         }
     }
