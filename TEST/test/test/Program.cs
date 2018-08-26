@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 
@@ -6,43 +7,41 @@ namespace test
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        private static void Main(string[] args)
         {
 
-            var arr = Console.ReadLine()
-                             .Split(' ')
-                             .Select(int.Parse)
-                             .ToArray();
+            List<int> numbers = Console.ReadLine()
+                                       .Split()
+                                       .Select(int.Parse)
+                                       .ToList();
 
-            var k = arr.Length / 4;
+            var counter = 1;
+            var counterMax = 0;
+            var numberMax = 0;
 
-            var arrDown = new int[k * 2]; 
-            var arrUp = new int[k * 2]; 
-
-            for (int i = 0; i < arrDown.Length ; i++) 
+            for (int i = 0; i < numbers.Count - 1; i++)
             {
-                arrDown[i] = arr[k + i];
+                if (numbers[i] == numbers[i + 1])
+                {
+                    counter++;
+                    if (counterMax < counter)
+                    {
+                        counterMax = counter;
+                        numberMax = numbers[i];
+                    }
+                }
+                else
+                {
+                    counter = 1;
+                }
             }
-
-            for (int i = 0; i < k; i++)
+            for (int i = 0; i < counterMax; i++)
             {
-                arrUp[i] = arr[k - 1 -i];
-                arrUp[ k + i ] = arr[arr.Length - 1 - i];
+                Console.Write(numberMax + " ");
             }
-
-            var sum = new int[k * 2]; 
-
-            for (int i = 0; i < sum.Length; i++) 
-            {
-                sum[i] = arrUp[i] + arrDown[i];
-            }
-            Console.WriteLine(string.Join(" ", arrUp));
-            Console.WriteLine(string.Join(" ", arrDown));
-            Console.WriteLine(string.Join(" ", sum));
-
         }
     }
 }
 
 
-//     1 2 3 4 5 6 7 8
+//     3 4 4 5 5 5 2 2

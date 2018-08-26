@@ -4,3 +4,9 @@
 /Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.csproj.CoreCompileInputs.cache
 /Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.exe
 /Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.pdb
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/bin/Debug/test.exe
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/bin/Debug/test.pdb
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.csprojAssemblyReference.cache
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.csproj.CoreCompileInputs.cache
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.exe
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Debug/test.pdb
