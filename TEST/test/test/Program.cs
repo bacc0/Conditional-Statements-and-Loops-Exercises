@@ -8,41 +8,37 @@ namespace test
     {
         public static void Main(string[] args)
         {
-            var numbers = Console.ReadLine()
-                                .Split(' ')
-                                .Select(int.Parse)
-                                .ToArray();
+            var arr = Console.ReadLine()
+                             .Split(' ')
+                             .Select(int.Parse)
+                             .ToArray();
 
-            var numbersoOfRotations = int.Parse(Console.ReadLine());
+            var k = arr.Length / 4;
 
-            var sum = new int[numbers.Length];
+            var uppeerArr = new int[k * 2];
+            var lowerArr  = new int[k * 2];
 
-            var rotated = new int[numbers.Length];
-
-
-
-            for (int i = 0; i < numbersoOfRotations; i++) 
+            for (int i = 0; i < k * 2; i++) 
             {
-
-                rotated = Rotated(numbers);
-                    
-                for (int j = 0; j < numbers.Length; j++) 
-                {
-                    sum[j] += rotated[i];
-                }
-            }
-        }
-
-        private static int[] Rotated(int[] numbers)
-        {
-            var rotated = new int[numbers.Length];
-
-            for (int i = 1; i < rotated.Length; i++) 
-            {
-                rotated[i] = numbers[i - 1];
+                lowerArr[i] = arr[i + k];
             }
 
-            return rotated;
+            for (int i = 0; i < k; i++)
+            {
+                uppeerArr[i] = arr[k - 1 - i];
+                uppeerArr[k + i] = arr[arr.Length - 1 - i];
+            }
+
+            var sum = new int[k * 2]; 
+
+            for (int i = 0; i < sum.Length; i++) 
+            {
+                sum[i] = uppeerArr[i] + lowerArr[i]; 
+            }
+
+            Console.WriteLine(String.Join(" ", sum));
+
+
         }
     }
 }
