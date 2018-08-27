@@ -49,6 +49,7 @@ namespace test
                     numbers.RemoveRange(position - power, 2 * power + 1);
                 }
             }
+            Console.WriteLine(numbers.Sum());
         }
     }
 }
