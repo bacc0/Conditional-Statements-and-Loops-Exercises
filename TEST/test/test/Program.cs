@@ -9,27 +9,45 @@ namespace test
     {
         static void Main()
         {
-            List<int> numbers = Console.ReadLine()
+            List<int> nums = Console.ReadLine()
                                        .Split()
                                        .Select(int.Parse)
                                        .ToList();
 
-            var num = int.Parse(Console.ReadLine());
-            var count = 0;
+            var counter = 1;
+            var maxCount = 0;
+            var numberEnd = 0;
 
-            for (int i = 0; i < numbers.Count; i++)
+            for (int i = 0; i < nums.Count - 1; i++)
             {
-                for (int j = i; j < numbers.Count; j++)
+                if (nums[i] < nums[i + 1])
                 {
-                    if (Math.Abs(numbers[i] - numbers[j]) == num)
+                    counter++;
+                }
+                else
+                {
+                    if (maxCount < counter)
                     {
-                        count++;
-                        Console.WriteLine(numbers[i] + " " + numbers[j]);
+                        maxCount = counter;
+                        numberEnd = i ;
+                        counter = 1;
                     }
+                    counter = 1;
+                }
 
+                if (i == nums.Count - 2)
+                {
+                    if (maxCount < counter)
+                    {
+                        maxCount = counter;
+                        numberEnd = i + 1;
+                    }
                 }
             }
-            Console.WriteLine(count);
+            for (int i = 0; i < maxCount; i++)
+            {
+                Console.Write(nums[numberEnd - maxCount + 1 + i] + " ");
+            }
         }
     }
 }
