@@ -13,7 +13,6 @@ namespace test
                                        .Split()
                                        .Select(int.Parse)
                                        .ToList();
-
             var count = 1;
             var maxCount = 0;
             var maxNum = 0;
@@ -40,7 +39,6 @@ namespace test
                     maxNum = numbers[i];
                 }
             }
-
             for (int i = 0; i < maxCount; i++)
             {
                 Console.Write($"{maxNum} ");
