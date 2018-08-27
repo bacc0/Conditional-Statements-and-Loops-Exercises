@@ -14,42 +14,22 @@ namespace test
                                        .Select(int.Parse)
                                        .ToList();
 
-            List<int> commands = Console.ReadLine()
-                                        .Split()
-                                        .Select(int.Parse)
-                                        .ToList();
+            var num = int.Parse(Console.ReadLine());
+            var count = 0;
 
-            var bomNum = commands[0];
-            var power = commands[1];
-
-            while (numbers.Contains(bomNum))
+            for (int i = 0; i < numbers.Count; i++)
             {
-                var position = numbers.IndexOf(bomNum);
-
-                if (position - power < 0 && position + power > numbers.Count)
+                for (int j = i; j < numbers.Count; j++)
                 {
-                    numbers.Clear();
-                }
+                    if (Math.Abs(numbers[i] - numbers[j]) == num)
+                    {
+                        count++;
+                        Console.WriteLine(numbers[i] + " " + numbers[j]);
+                    }
 
-
-
-
-                else if (position - power < 0)
-                {
-                    numbers.RemoveRange(0, 1 + power +  position);
-                }
-
-
-                else if (position + power >= numbers.Count)
-                {
-                    numbers.RemoveRange(position - power, 1 + power + (numbers.Count - 1 - position));
-                }
-                else
-                {
-                    numbers.RemoveRange(position - power, 2 * power + 1);
                 }
             }
-            Console.WriteLine(numbers.Sum());
+            Console.WriteLine(count);
         }
     }
 }
@@ -60,15 +40,15 @@ namespace test
 //                                             .Split()
 //                                             .Select(int.Parse)
 //                                             .ToList();
-                  //      var count = 1;
+//      var count = 1;
 //      var maxCount = 0;
 //      var maxNum = 0;
-                  //      for (int i = 0; i<numbers.Count - 1; i++)
+//      for (int i = 0; i<numbers.Count - 1; i++)
 //      {
 //          if (numbers[i] == numbers[i + 1])
 //          {
 //              count++;
-                  //              if (maxCount<count)
+//              if (maxCount<count)
 //              {
 //                  maxCount = count;
 //                  maxNum = numbers[i];
@@ -84,5 +64,58 @@ namespace test
 //          Console.Write($"{maxNum} ");
 //      }
 
+// 02.
+
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+
+
+//namespace test
+//{
+//    class MainClass
+//    {
+//        static void Main()
+//        {
+//            List<int> numbers = Console.ReadLine()
+//                                       .Split()
+//                                       .Select(int.Parse)
+//                                       .ToList();
+
+//            List<int> commands = Console.ReadLine()
+//                                        .Split()
+//                                        .Select(int.Parse)
+//                                        .ToList();
+
+//            var bomNum = commands[0];
+//            var power = commands[1];
+
+//            while (numbers.Contains(bomNum))
+//            {
+//                var position = numbers.IndexOf(bomNum);
+
+//                if (position - power < 0 && position + power > numbers.Count)
+//                {
+//                    numbers.Clear();
+//                }
+//                else if (position - power < 0)
+//                {
+//                    numbers.RemoveRange(0, 1 + power + position);
+//                }
+
+//                else if (position + power >= numbers.Count)
+//                {
+//                    numbers.RemoveRange(position - power, 1 + power + (numbers.Count - 1 - position));
+//                }
+//                else
+//                {
+//                    numbers.RemoveRange(position - power, power * 2 + 1);
+//                }
+//            }
+//            Console.WriteLine(numbers.Sum());
+//        }
+//    }
+//}
 
 
