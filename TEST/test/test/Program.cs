@@ -13,35 +13,41 @@ namespace test
                                        .Split()
                                        .Select(int.Parse)
                                        .ToList();
-            var count = 1;
-            var maxCount = 0;
-            var maxNum = 0;
 
-            for (int i = 0; i < numbers.Count - 1; i++)
+            List<int> commands = Console.ReadLine()
+                                        .Split()
+                                        .Select(int.Parse)
+                                        .ToList();
+
+            var bomNum = commands[0];
+            var power = commands[1];
+
+            while (numbers.Contains(bomNum))
             {
-                if (numbers[i] == numbers[i + 1])
-                {
-                    count++;
+                var position = numbers.IndexOf(bomNum);
 
-                    if (maxCount < count)
-                    {
-                        maxCount = count;
-                        maxNum = numbers[i];
-                    }
+                if (position - power < 0 && position + power > numbers.Count)
+                {
+                    numbers.Clear();
+                }
+
+
+
+
+                else if (position - power < 0)
+                {
+                    numbers.RemoveRange(0, 1 + power +  position);
+                }
+
+
+                else if (position + power >= numbers.Count)
+                {
+                    numbers.RemoveRange(position - power, 1 + power + (numbers.Count - 1 - position));
                 }
                 else
                 {
-                    count = 1;
+                    numbers.RemoveRange(position - power, 2 * power + 1);
                 }
-                if (maxCount < count)
-                {
-                    maxCount = count;
-                    maxNum = numbers[i];
-                }
-            }
-            for (int i = 0; i < maxCount; i++)
-            {
-                Console.Write($"{maxNum} ");
             }
         }
     }
