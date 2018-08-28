@@ -39,7 +39,6 @@ namespace test
             Console.WriteLine(string.Join(" ", arrUp));
             Console.WriteLine(string.Join(" ", arrDown));
             Console.WriteLine(string.Join(" ", sum));
-
         }
     }
 }
