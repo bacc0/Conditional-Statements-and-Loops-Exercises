@@ -3,54 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace test
-{
-    class MainClass
-    {
-        static void Main()
-        {
-            List<int> nums = Console.ReadLine()
-                                       .Split()
-                                       .Select(int.Parse)
-                                       .ToList();
 
-            var counter = 1;
-            var maxCount = 0;
-            var numberEnd = 0;
-
-            for (int i = 0; i < nums.Count - 1; i++)
-            {
-                if (nums[i] < nums[i + 1])
-                {
-                    counter++;
-                }
-                else
-                {
-                    if (maxCount < counter)
-                    {
-                        maxCount = counter;
-                        numberEnd = i ;
-                        counter = 1;
-                    }
-                    counter = 1;
-                }
-
-                if (i == nums.Count - 2)
-                {
-                    if (maxCount < counter)
-                    {
-                        maxCount = counter;
-                        numberEnd = i + 1;
-                    }
-                }
-            }
-            for (int i = 0; i < maxCount; i++)
-            {
-                Console.Write(nums[numberEnd - maxCount + 1 + i] + " ");
-            }
-        }
-    }
-}
 
 
 //   01.
@@ -135,5 +88,63 @@ namespace test
 //        }
 //    }
 //}
+
+
+//03.
+
+//  using System;
+//using System.Collections.Generic;
+//using System.Linq;
+
+
+//namespace test
+//{
+//    class MainClass
+//    {
+//        static void Main()
+//        {
+//            List<int> nums = Console.ReadLine()
+//                                       .Split()
+//                                       .Select(int.Parse)
+//                                       .ToList();
+
+//            var counter = 1;
+//            var maxCount = 0;
+//            var numberEnd = 0;
+
+//            for (int i = 0; i < nums.Count - 1; i++)
+//            {
+//                if (nums[i] < nums[i + 1])
+//                {
+//                    counter++;
+//                }
+//                else
+//                {
+//                    if (maxCount < counter)
+//                    {
+//                        maxCount = counter;
+//                        numberEnd = i;
+//                        counter = 1;
+//                    }
+//                    counter = 1;
+//                }
+
+//                if (i == nums.Count - 2)
+//                {
+//                    if (maxCount < counter)
+//                    {
+//                        maxCount = counter;
+//                        numberEnd = i + 1;
+//                    }
+//                }
+//            }
+//            for (int i = 0; i < maxCount; i++)
+//            {
+//                Console.Write(nums[numberEnd - maxCount + 1 + i] + " ");
+//            }
+//        }
+//    }
+//}
+
 
 
