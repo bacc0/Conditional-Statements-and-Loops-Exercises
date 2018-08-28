@@ -1,8 +1,56 @@
-﻿using System;
+﻿  using System;
 using System.Collections.Generic;
 using System.Linq;
 
 
+namespace test
+{
+    class MainClass
+    {
+        static void Main()
+        {
+            List<int> nums = Console.ReadLine()
+                                       .Split()
+                                       .Select(int.Parse)
+                                       .ToList();
+
+            var counter = 1;
+            var maxCount = 0;
+            var numberEnd = 0;
+
+            for (int i = 0; i < nums.Count - 1; i++)
+            {
+                if (nums[i] < nums[i + 1])
+                {
+                    counter++;
+                }
+                else
+                {
+                    if (maxCount < counter)
+                    {
+                        maxCount = counter;
+                        numberEnd = i;
+                        counter = 1;
+                    }
+                    counter = 1;
+                }
+
+                if (i == nums.Count - 2)
+                {
+                    if (maxCount < counter)
+                    {
+                        maxCount = counter;
+                        numberEnd = i + 1;
+                    }
+                }
+            }
+            for (int i = 0; i < maxCount; i++)
+            {
+                Console.Write(nums[numberEnd - maxCount + 1 + i] + " ");
+            }
+        }
+    }
+}
 
 
 
@@ -38,24 +86,6 @@ using System.Linq;
 // 02.
 
 
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-
-<<<<<<< HEAD
-            for (int i = 0; i < sum.Length; i++) 
-            {
-                sum[i] = arrUp[i] + arrDown[i];
-            }
-            Console.WriteLine(string.Join(" ", arrUp));
-            Console.WriteLine(string.Join(" ", arrDown));
-            Console.WriteLine(string.Join(" ", sum));
-        }
-    }
-}
-=======
-
-//namespace test
 //{
 //    class MainClass
 //    {
@@ -158,6 +188,6 @@ using System.Linq;
 //    }
 //}
 
->>>>>>> 12f12073cc64fe0a259322c3669c5ef43f106741
+
 
 
