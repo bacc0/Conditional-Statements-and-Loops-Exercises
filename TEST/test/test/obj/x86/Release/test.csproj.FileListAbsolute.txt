@@ -1,0 +1,1 @@
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test/test/obj/x86/Release/test.csproj.CoreCompileInputs.cache

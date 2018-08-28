@@ -1,21 +1,14 @@
 ﻿<Properties StartupConfiguration="{94D5E74F-E3A6-49BC-ACAA-063A5EB4C2B7}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="test/Program.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="test/Program.cs" Line="27" Column="40" />
-=======
-      <File FileName="test/Program.cs" Line="6" Column="1" />
->>>>>>> 12f12073cc64fe0a259322c3669c5ef43f106741
+      <File FileName="test/Program.cs" Line="5" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.ItemProperties.test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../../../../../../../Desktop/111/111/Program.cs" line="64" offsetX="781" offsetY="1260" expression="arr" liveUpdate="False" />
-    <Watch file="../../../test/Program.cs" line="29" offsetX="684" offsetY="448" expression="numbers[1]" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
