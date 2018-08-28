@@ -1,0 +1,4 @@
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/bin/Release/test2.exe
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Release/test2.csprojResolveAssemblyReference.cache
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Release/test2.csproj.CoreCompileInputs.cache
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Release/test2.exe

@@ -9,45 +9,44 @@ namespace test
     {
         static void Main()
         {
-            List<int> nums = Console.ReadLine()
-                                       .Split()
-                                       .Select(int.Parse)
-                                       .ToList();
+            var inp =   Console.ReadLine();
+            
 
-            var counter = 1;
-            var maxCount = 0;
-            var numberEnd = 0;
+            var dic = new Dictionary<string, Dictionary<string, int>>();
 
-            for (int i = 0; i < nums.Count - 1; i++)
+
+            while (!inp.Equals("end"))
             {
-                if (nums[i] < nums[i + 1])
+
+                var input = inp.Split()
+                               .ToArray();
+
+                var ipFull = input[0];
+                var userFull = input[2];
+
+                var ipHelper = ipFull.Split('=').ToArray();
+                var userHelper = userFull.Split('=').ToArray();
+
+                var ip = ipHelper[1];
+                var user = userHelper[1];
+
+                if (!dic.ContainsKey(user))
                 {
-                    counter++;
+                    dic[user] = new Dictionary<string, int>();
                 }
-                else
+                if (!dic[user].ContainsKey(ip))
                 {
-                    if (maxCount < counter)
-                    {
-                        maxCount = counter;
-                        numberEnd = i;
-                        counter = 1;
-                    }
-                    counter = 1;
+                    dic[user][ip] = 0;
                 }
 
-                if (i == nums.Count - 2)
-                {
-                    if (maxCount < counter)
-                    {
-                        maxCount = counter;
-                        numberEnd = i + 1;
-                    }
-                }
+                dic[user][ip] += 1;
+
+
+
+                input = inp.Split()
+                           .ToArray();
             }
-            for (int i = 0; i < maxCount; i++)
-            {
-                Console.Write(nums[numberEnd - maxCount + 1 + i] + " ");
-            }
+
         }
     }
 }

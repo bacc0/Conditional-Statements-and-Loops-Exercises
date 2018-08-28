@@ -1,0 +1,5 @@
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/bin/Debug/test2.exe
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/bin/Debug/test2.pdb
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Debug/test2.csproj.CoreCompileInputs.cache
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Debug/test2.exe
+/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/obj/x86/Debug/test2.pdb
