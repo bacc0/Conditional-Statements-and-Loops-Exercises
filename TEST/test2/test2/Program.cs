@@ -10,46 +10,46 @@ namespace test2
         {
             var dic = new Dictionary<string, Dictionary<string, int>>();
 
-            var input = Console.ReadLine()
-                               .Split()
-                               .ToArray();
 
-            while (!input[0].Equals("end"))
+
+            while (true)
             {
-                var userHelper = input[2].Split('=').ToArray();
-                var ipHelper = input[0].Split('=').ToArray();
 
-                var user = userHelper[1];
-                var ip = ipHelper[1];
+                var elements = Console.ReadLine();
+                               
 
-                if ( !dic.ContainsKey(user))
+                if (elements.Equals("report"))
                 {
-                    dic[user] = new Dictionary<string, int>();
+                    break;
                 }
-                if ( ! dic[user].ContainsKey(ip))
-                {
-                    dic[user][ip] = 0;
-                }
-                dic[user][ip] += 1;
 
-                input = Console.ReadLine()
-                               .Split()
-                               .ToArray();
+                var input = elements.Split('|')
+                                    .ToArray();
+                
+                var capital = input[0];
+
+                var state = input[1];
+                var population = int.Parse(input[2]);
+
+                if (!dic.ContainsKey(state))
+                {
+                    dic[state] = new Dictionary<string, int>();
+                }
+                if (!dic[state].ContainsKey(capital))
+                {
+                    dic[state][capital] = 0;
+                }
+                dic[state][capital] = population;
             }
 
-            foreach (var item in dic.OrderBy( x => x.Key))
+            foreach (var country in dic.OrderByDescending( x => x.Value.Values.Sum()))
             {
-                Console.WriteLine(item.Key + ": ");
+                Console.WriteLine($"{country.Key} (total population: {country.Value.Values.Sum()})");
 
-                var arr = new List<string>();
-
-                foreach (var ipS in item.Value)
+                foreach (var capital in country.Value.OrderByDescending( y => y.Value))
                 {
-                    
-                    arr.Add($"{ipS.Key} => {ipS.Value}");
-
+                    Console.WriteLine($"=>{capital.Key}: {capital.Value}");
                 }
-                Console.WriteLine(string.Join(", ", arr) + '.');
             }
         }
     }
