@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿namespace test
 {
     class MainClass
@@ -8,7 +9,60 @@
         }
     }
 }
+=======
+﻿  using System;
+using System.Collections.Generic;
+using System.Linq;
 
+>>>>>>> c31a986c2cc7ee01f3dd6037feb4f6d13d500bc8
+
+namespace test
+{
+    class MainClass
+    {
+        static void Main()
+        {
+            var inp =   Console.ReadLine();
+            
+
+            var dic = new Dictionary<string, Dictionary<string, int>>();
+
+
+            while (!inp.Equals("end"))
+            {
+
+                var input = inp.Split()
+                               .ToArray();
+
+                var ipFull = input[0];
+                var userFull = input[2];
+
+                var ipHelper = ipFull.Split('=').ToArray();
+                var userHelper = userFull.Split('=').ToArray();
+
+                var ip = ipHelper[1];
+                var user = userHelper[1];
+
+                if (!dic.ContainsKey(user))
+                {
+                    dic[user] = new Dictionary<string, int>();
+                }
+                if (!dic[user].ContainsKey(ip))
+                {
+                    dic[user][ip] = 0;
+                }
+
+                dic[user][ip] += 1;
+
+
+
+                input = inp.Split()
+                           .ToArray();
+            }
+
+        }
+    }
+}
 
 
 
@@ -44,12 +98,6 @@
 // 02.
 
 
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-
-
-//namespace test
 //{
 //    class MainClass
 //    {
@@ -151,6 +199,7 @@
 //        }
 //    }
 //}
+
 
 
 

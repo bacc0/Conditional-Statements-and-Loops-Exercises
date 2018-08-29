@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{65C7074F-7971-419C-A1A7-1E7C2DD48264}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test2/Program.cs">
+    <Files>
+      <File FileName="test2/Program.cs" Line="20" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bacco/GIT/Programming-Fundamentals-SoftUni/TEST/test2/test2/Program.cs" relfile="test2/Program.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../test2/Program.cs" line="14" offsetX="790" offsetY="327" expression="dic" liveUpdate="True" />
+    <Watch file="../../../test2/Program.cs" line="14" offsetX="674" offsetY="512" expression="Dictionary&lt;string, int&gt;" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.test2 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
