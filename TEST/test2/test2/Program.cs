@@ -8,49 +8,48 @@ namespace test2
     {
         public static void Main(string[] args)
         {
-            var dic = new SortedDictionary<string, Dictionary<string, int>>();
+            var dic = new Dictionary<string, Dictionary<string, int>>();
 
-            var interations = int.Parse(Console.ReadLine());
+            var input = Console.ReadLine()
+                               .Split()
+                               .ToArray();
 
-            for (int i = 0; i < interations; i++) 
+            while (!input[0].Equals("end"))
             {
-                var input = Console.ReadLine()
-                                   .Split()
-                                   .ToArray();
+                var userHelper = input[2].Split('=').ToArray();
+                var ipHelper = input[0].Split('=').ToArray();
 
-                var user = input[1];
-
-                var userIp = input[0];
-                var duration = int.Parse(input[2]);
+                var user = userHelper[1];
+                var ip = ipHelper[1];
 
                 if ( !dic.ContainsKey(user))
                 {
                     dic[user] = new Dictionary<string, int>();
                 }
-                if ( !dic[user].ContainsKey(userIp))
+                if ( ! dic[user].ContainsKey(ip))
                 {
-                    dic[user][userIp] = 0;
+                    dic[user][ip] = 0;
                 }
-                dic[user][userIp] += duration;
+                dic[user][ip] += 1;
+
+                input = Console.ReadLine()
+                               .Split()
+                               .ToArray();
             }
 
-            foreach (var userName in dic)
+            foreach (var item in dic.OrderBy( x => x.Key))
             {
-                Console.Write(userName.Key + ": ");
+                Console.WriteLine(item.Key + ": ");
 
+                var arr = new List<string>();
 
-                var ipS = new List<string>();
-                var sum = 0;
-
-                foreach (var ipD  in userName.Value.OrderBy(x => x.Key))
+                foreach (var ipS in item.Value)
                 {
-                    ipS.Add(ipD.Key);
+                    
+                    arr.Add($"{ipS.Key} => {ipS.Value}");
 
-                    sum += ipD.Value;
                 }
-                Console.Write(sum + " ");
-
-                Console.WriteLine("[" + string.Join(", ", ipS) + "]");
+                Console.WriteLine(string.Join(", ", arr) + '.');
             }
         }
     }
@@ -179,3 +178,63 @@ namespace test2
 //    }
 //}
 
+
+//03.
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+
+//namespace test2
+//{
+//    class MainClass
+//    {
+//        public static void Main(string[] args)
+//        {
+//            var dic = new SortedDictionary<string, Dictionary<string, int>>();
+
+//            var interations = int.Parse(Console.ReadLine());
+
+//            for (int i = 0; i < interations; i++)
+//            {
+//                var input = Console.ReadLine()
+//                                   .Split()
+//                                   .ToArray();
+
+//                var user = input[1];
+
+//                var userIp = input[0];
+//                var duration = int.Parse(input[2]);
+
+//                if (!dic.ContainsKey(user))
+//                {
+//                    dic[user] = new Dictionary<string, int>();
+//                }
+//                if (!dic[user].ContainsKey(userIp))
+//                {
+//                    dic[user][userIp] = 0;
+//                }
+//                dic[user][userIp] += duration;
+//            }
+
+//            foreach (var userName in dic)
+//            {
+//                Console.Write(userName.Key + ": ");
+
+
+//                var ipS = new List<string>();
+//                var sum = 0;
+
+//                foreach (var ipD in userName.Value.OrderBy(x => x.Key))
+//                {
+//                    ipS.Add(ipD.Key);
+
+//                    sum += ipD.Value;
+//                }
+//                Console.Write(sum + " ");
+
+//                Console.WriteLine("[" + string.Join(", ", ipS) + "]");
+//            }
+//        }
+//    }
+//}
