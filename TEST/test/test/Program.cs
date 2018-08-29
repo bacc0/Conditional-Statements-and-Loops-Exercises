@@ -1,7 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿namespace test
+{
+    class MainClass
+    {
+        static void Main()
+        {
+            
+        }
+    }
+}
 
 
 
