@@ -1,20 +1,8 @@
-<<<<<<< HEAD
-﻿namespace test
-{
-    class MainClass
-    {
-        static void Main()
-        {
-            
-        }
-    }
-}
-=======
-﻿  using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
->>>>>>> c31a986c2cc7ee01f3dd6037feb4f6d13d500bc8
+
 
 namespace test
 {
