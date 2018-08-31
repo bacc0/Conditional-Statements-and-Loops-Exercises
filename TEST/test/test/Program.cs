@@ -41,7 +41,15 @@ namespace test
                 army[type].Add(name, stats);
 
             }
-            Console.WriteLine();
+            foreach (var type in army.Keys)
+            {
+                Console.WriteLine(type);
+
+                foreach (var pair in army.Values)
+                {
+                    Console.WriteLine(pair.Keys);
+                }
+            }
         }
     }
 }
