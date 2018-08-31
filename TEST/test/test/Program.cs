@@ -8,46 +8,40 @@ namespace test
 {
     class MainClass
     {
-        static void Main()
+        public static void Main()
         {
-            var inp =   Console.ReadLine();
-            
+            int n = int.Parse(Console.ReadLine());
 
-            var dic = new Dictionary<string, Dictionary<string, int>>();
+            Dictionary<string, Dictionary<string, List<long>>>
+            army = 
+                new Dictionary<string, Dictionary<string, List<long>>>();
 
-
-            while (!inp.Equals("end"))
+            while (n-- > 0)
             {
+                string[] data = Console.ReadLine().Split();
 
-                var input = inp.Split()
-                               .ToArray();
+                string type = data[0];
+                string name = data[1];
 
-                var ipFull = input[0];
-                var userFull = input[2];
+                long damage = data[2].Equals("null") ? 45 : long.Parse(data[2]);
+                long health = data[3].Equals("null") ? 250 : long.Parse(data[3]);
+                long armor  = data[4].Equals("null") ? 10 : long.Parse(data[4]);
 
-                var ipHelper = ipFull.Split('=').ToArray();
-                var userHelper = userFull.Split('=').ToArray();
+                List<long> stats = new List<long>();
 
-                var ip = ipHelper[1];
-                var user = userHelper[1];
+                stats.Add(damage);
+                stats.Add(health);
+                stats.Add(armor);
 
-                if (!dic.ContainsKey(user))
+                if ( ! army.ContainsKey(type))
                 {
-                    dic[user] = new Dictionary<string, int>();
-                }
-                if (!dic[user].ContainsKey(ip))
-                {
-                    dic[user][ip] = 0;
+                    army.Add(type, new Dictionary<string, List<long>>());
                 }
 
-                dic[user][ip] += 1;
+                army[type].Add(name, stats);
 
-
-
-                input = inp.Split()
-                           .ToArray();
             }
-
+            Console.WriteLine();
         }
     }
 }
@@ -187,6 +181,71 @@ namespace test
 //        }
 //    }
 //}
+
+
+//04.
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+
+
+
+//namespace test
+//{
+//    class MainClass
+//    {
+//        public static void Main()
+//        {
+
+
+//            var circle1data = Console.ReadLine()
+//                                     .Split()
+//                                     .Select(double.Parse)
+//                                     .ToArray();
+
+//            var circle1X = circle1data[0];
+//            var circle1Y = circle1data[1];
+//            var circle1Radius = circle1data[2];
+
+
+
+
+
+//            var circle2data = Console.ReadLine()
+//                                     .Split()
+//                                     .Select(double.Parse)
+//                                     .ToArray();
+
+
+//        }
+
+//        class Point
+//        {
+//            public Point(double x, double y)
+//            {
+//                X = x;
+//                Y = y;
+//            }
+
+//            public double X { get; set; }
+//            public double Y { get; set; }
+//        }
+
+//        class Cyrcle
+//        {
+//            public Cyrcle(Point point, double radius)
+//            {
+//                Point = point;
+//                Radius = radius;
+//            }
+
+//            public Point Point { get; set; }
+
+//            public double Radius { get; set; }
+//        }
+//    }
+//}
+
 
 
 
