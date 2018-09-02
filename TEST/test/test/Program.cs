@@ -33,7 +33,7 @@ namespace test
                 stats.Add(health);
                 stats.Add(armor);
 
-                if ( ! army.ContainsKey(type))
+                if ( !army.ContainsKey(type))
                 {
                     army.Add(type, new Dictionary<string, List<long>>());
                 }
@@ -41,15 +41,26 @@ namespace test
                 army[type].Add(name, stats);
 
             }
-            foreach (var type in army.Keys)
+            foreach (var type in army)
             {
-                Console.WriteLine(type);
+                long sumDmg   = 0;
+                long sumHealt = 0;
+                long sumArmor = 0;
 
-                foreach (var pair in army.Values)
+                Dictionary<string, List<long>> nameWithStats =
+                    army[type.Key];
+
+                foreach (var inner in nameWithStats)
                 {
-                    Console.WriteLine(pair.Keys);
+                    sumDmg   += nameWithStats[inner.Key][0];
+                    sumHealt += nameWithStats[inner.Key][1];
+                    sumArmor += nameWithStats[inner.Key][2];
                 }
+                Console.WriteLine($"{type.Key:f2}::({(sumDmg / nameWithStats.Count):f2}" +
+                                  $"/{(sumHealt / nameWithStats.Count):f2}" +
+                                  $"/{(sumArmor / nameWithStats.Count):f2}");
             }
+
         }
     }
 }
