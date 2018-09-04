@@ -10,61 +10,25 @@ namespace test
     {
         public static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
+            var arr = Console.ReadLine()
+                             .Split()
+                             .ToArray();
+            var temp = arr[arr.Length - 1];
 
-            Dictionary<string, Dictionary<string, List<long>>>
-            army = 
-                new Dictionary<string, Dictionary<string, List<long>>>();
-
-            while (n-- > 0)
+            for (int i = arr.Length - 1; i >= 1; i--)
             {
-                string[] data = Console.ReadLine().Split();
-
-                string type = data[0];
-                string name = data[1];
-
-                long damage = data[2].Equals("null") ? 45 : long.Parse(data[2]);
-                long health = data[3].Equals("null") ? 250 : long.Parse(data[3]);
-                long armor  = data[4].Equals("null") ? 10 : long.Parse(data[4]);
-
-                List<long> stats = new List<long>();
-
-                stats.Add(damage);
-                stats.Add(health);
-                stats.Add(armor);
-
-                if ( !army.ContainsKey(type))
-                {
-                    army.Add(type, new Dictionary<string, List<long>>());
-                }
-
-                army[type].Add(name, stats);
-
+                arr[i] = arr[ i - 1];
             }
-            foreach (var type in army)
-            {
-                long sumDmg   = 0;
-                long sumHealt = 0;
-                long sumArmor = 0;
+            arr[0] = temp;
 
-                Dictionary<string, List<long>> nameWithStats =
-                    army[type.Key];
-
-                foreach (var inner in nameWithStats)
-                {
-                    sumDmg   += nameWithStats[inner.Key][0];
-                    sumHealt += nameWithStats[inner.Key][1];
-                    sumArmor += nameWithStats[inner.Key][2];
-                }
-                Console.WriteLine($"{type.Key:f2}::({(sumDmg / nameWithStats.Count):f2}" +
-                                  $"/{(sumHealt / nameWithStats.Count):f2}" +
-                                  $"/{(sumArmor / nameWithStats.Count):f2}");
-            }
+            Console.WriteLine(string.Join(" ", arr));
 
         }
     }
 }
 
+// 1 2 3 4 5
+// + 1 2 3 4
 
 
 //   01.
@@ -264,6 +228,77 @@ namespace test
 //        }
 //    }
 //}
+
+
+//05. 
+
+//  using System;
+//using System.Collections.Generic;
+//using System.Linq;
+
+
+
+//namespace test
+//{
+//    class MainClass
+//    {
+//        public static void Main()
+//        {
+//            int n = int.Parse(Console.ReadLine());
+
+//            Dictionary<string, Dictionary<string, List<long>>>
+//            army =
+//                new Dictionary<string, Dictionary<string, List<long>>>();
+
+//            while (n-- > 0)
+//            {
+//                string[] data = Console.ReadLine().Split();
+
+//                string type = data[0];
+//                string name = data[1];
+
+//                long damage = data[2].Equals("null") ? 45 : long.Parse(data[2]);
+//                long health = data[3].Equals("null") ? 250 : long.Parse(data[3]);
+//                long armor = data[4].Equals("null") ? 10 : long.Parse(data[4]);
+
+//                List<long> stats = new List<long>();
+
+//                stats.Add(damage);
+//                stats.Add(health);
+//                stats.Add(armor);
+
+//                if (!army.ContainsKey(type))
+//                {
+//                    army.Add(type, new Dictionary<string, List<long>>());
+//                }
+
+//                army[type].Add(name, stats);
+
+//            }
+//            foreach (var type in army)
+//            {
+//                long sumDmg = 0;
+//                long sumHealt = 0;
+//                long sumArmor = 0;
+
+//                Dictionary<string, List<long>> nameWithStats =
+//                    army[type.Key];
+
+//                foreach (var inner in nameWithStats)
+//                {
+//                    sumDmg += nameWithStats[inner.Key][0];
+//                    sumHealt += nameWithStats[inner.Key][1];
+//                    sumArmor += nameWithStats[inner.Key][2];
+//                }
+//                Console.WriteLine($"{type.Key:f2}::({(sumDmg / nameWithStats.Count):f2}" +
+//                                  $"/{(sumHealt / nameWithStats.Count):f2}" +
+//                                  $"/{(sumArmor / nameWithStats.Count):f2}");
+//            }
+
+//        }
+//    }
+//}
+
 
 
 
