@@ -10,18 +10,7 @@ namespace test
     {
         public static void Main()
         {
-                var arr = Console.ReadLine()
-                                 .Split()
-                                 .ToArray();
-                var temp = arr[arr.Length - 1];
-
-                for (int i = arr.Length - 1; i >= 1; i--)
-                {
-                    arr[i] = arr[ i - 1];
-                }
-                arr[0] = temp;
-
-                Console.WriteLine(string.Join(" ", arr));
+           
 
         }
     }
