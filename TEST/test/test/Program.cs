@@ -10,7 +10,16 @@ namespace test
     {
         public static void Main()
         {
-           
+            HashSet<int> set = new HashSet<int>();
+
+            set.Add(1);
+            set.Add(1);
+            set.Add(2);
+            set.Add(1);
+            set.Add(5);
+            Console.WriteLine(set.Count);
+
+            set.Contains(1);
 
         }
     }
