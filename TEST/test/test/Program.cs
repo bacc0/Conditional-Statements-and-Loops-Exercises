@@ -8,64 +8,95 @@ namespace test
     {
         public static void Main()
         {
+            var data = Console.ReadLine();
 
-            var input = Console.ReadLine();
-            var dic = new SortedDictionary<string, Dictionary<string, int>>();
+            var totalPopulation = new Dictionary<string, Dictionary<string, long>>();
 
-            while (input != "end")
+            while (data != "report")
             {
-                var data = input.Split();
+                var input = data.Split('|');
 
-                var userInput = data[2].Split('=');
-                var users = userInput[1];
+                var state = input[1];
+                var town = input[0];
+                var population = long.Parse(input[2]);
 
-                var IpInput = data[0].Split('=');
-                var IPs = IpInput[1];
 
-                if (!dic.ContainsKey(users))
+                if (!totalPopulation.ContainsKey(state))
                 {
-                    dic[users] = new Dictionary<string, int>();
+                    totalPopulation[state] = new Dictionary<string, long>();
                 }
-                if (!dic[users].ContainsKey(IPs))
+                if (!totalPopulation[state].ContainsKey(town))
                 {
-                    dic[users][IPs] = 0;
+                    totalPopulation[state][town] = 0;
                 }
 
-                dic[users][IPs] += 1;
+                totalPopulation[state][town] += population;
 
-                input = Console.ReadLine();
+                data = Console.ReadLine();
             }
 
-            //foreach (var user in dic)
-            //{
-            //    Console.WriteLine(user.Key + ":");
-
-            //    var result = "";
-
-            //    foreach (var pair in user.Value)
-            //    {
-            //        result += $"{pair.Key} => {pair.Value}, \n";
-            //    }
-            //    Console.WriteLine(result.TrimEnd(new Char[] { ' ', ',', '\n' }) + ".");
-            //}
-
-            foreach (var user in dic)
+            foreach (var country in totalPopulation.OrderByDescending(x => x.Value.Values.Sum()))
             {
-                Console.WriteLine(user.Key + ":");
+                Console.WriteLine($"{country.Key} (total population: {country.Value.Values.Sum()})");
 
-                var result = "";
-
-                foreach (var pair in user.Value)
+                foreach (var townAndPopulation in country.Value.OrderByDescending(x => x.Value))
                 {
-                    result += $"{pair.Key} => {pair.Value}, ";
+                    Console.WriteLine($"=>{townAndPopulation.Key}: {townAndPopulation.Value}");
                 }
-
-                Console.WriteLine(result.TrimEnd(new Char[] { ' ', ',' }) + ".");
             }
         }
     }
 }
 
+//namespace test
+//{
+//    class MainClass
+//    {
+//        public static void Main()
+//        {
+
+//            var input = Console.ReadLine();
+//            var dic = new SortedDictionary<string, Dictionary<string, int>>();
+
+//            while (input != "end")
+//            {
+//                var data = input.Split();
+
+//                var userInput = data[2].Split('=');
+//                var users = userInput[1];
+
+//                var IpInput = data[0].Split('=');
+//                var IPs = IpInput[1];
+
+//                if (!dic.ContainsKey(users))
+//                {
+//                    dic[users] = new Dictionary<string, int>();
+//                }
+//                if (!dic[users].ContainsKey(IPs))
+//                {
+//                    dic[users][IPs] = 0;
+//                }
+
+//                dic[users][IPs] += 1;
+
+//                input = Console.ReadLine();
+//            }
+
+//            foreach (var user in dic)
+//            {
+//                Console.WriteLine(user.Key + ":");
+
+//                var result = "";
+
+//                foreach (var pair in user.Value)
+//                {
+//                    result += $"{pair.Key} => {pair.Value}, \n";
+//                }
+//                Console.WriteLine(result.TrimEnd(new Char[] { ' ', ',', '\n' }) + ".");
+//            }
+//        }
+//    }
+//}
 
 
 
