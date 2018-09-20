@@ -10,20 +10,19 @@ namespace test
     {
         public static void Main()
         {
-           
-            string input = Console.ReadLine();
+            var input = Console.ReadLine();
 
             var houseOfCards = new Dictionary<string, Dictionary<int, HashSet<int>>>();
 
             while (input != "JOKER")
             {
-                string[] handInfo = input.Split(new char[] { ':', ',', ' ' }
-                                                ,StringSplitOptions
-                                                .RemoveEmptyEntries);
+                var handInfo = input.Split(new char[] { ':', ',', ' ' }
+                                    ,StringSplitOptions
+                                    .RemoveEmptyEntries);
 
-                string name = handInfo[0];
+                var name = handInfo[0];
 
-                if(!houseOfCards.ContainsKey(name))
+                if ( !houseOfCards.ContainsKey(name))
                 {
                     houseOfCards.Add(name, new Dictionary<int, HashSet<int>>());
 
@@ -35,52 +34,50 @@ namespace test
 
                 for (int i = 1; i < handInfo.Length; i++)
                 {
-                    string currentCard = handInfo[i].Trim();
+                    var currentCard = handInfo[i]; //.Trim();
+
                     int face = 0;
                     int suite = 0;
 
 
                     if (currentCard.Length > 2)
                     {
-                         face = getFace(currentCard.Substring(0, 2));
+                        face = GetFace(currentCard.Substring(0, 2));
 
-                         suite = getSuite(currentCard.Substring(2));
+                        suite = GetSuite(currentCard.Substring(2));
                     }
                     else
                     {
-                         face = getFace(currentCard[0].ToString());
+                        face = GetFace(currentCard[0].ToString());
 
-                         suite = getSuite(currentCard[1].ToString());
+                        suite = GetSuite(currentCard[1].ToString());
                     }
-
-                 
 
                     if (!houseOfCards[name][suite].Contains(face))
                     {
-
                         houseOfCards[name][suite].Add(face);
                     }
                 }
+
 
                 input = Console.ReadLine();
             }
 
             foreach (var outerPair in houseOfCards)
             {
-                int sum = 0;
+                Console.Write(outerPair.Key + ": ");
 
+                var sum = 0;
                 foreach (var innerPair in outerPair.Value)
                 {
-                    sum += innerPair.Key * innerPair.Value.Sum();
+                   sum += innerPair.Key * innerPair.Value.Sum();
                 }
-                Console.WriteLine($"{outerPair.Key}: {sum}");
+                Console.WriteLine(sum);
             }
 
 
-
-
         }
-        private static int getFace(string face)
+        private static int GetFace(string face)
         {
             switch (face)
             {
@@ -96,7 +93,8 @@ namespace test
                     return int.Parse(face);
             }
         }
-        private static int getSuite(string suite)
+
+        private static int GetSuite(string suite)
         {
             switch (suite)
             {
@@ -108,13 +106,12 @@ namespace test
                     return 2;
                 case "C":
                     return 1;
-                default:
+                default :
                     return 0;
             }
-                                
         }
 
-       
+
     }
 }
 
