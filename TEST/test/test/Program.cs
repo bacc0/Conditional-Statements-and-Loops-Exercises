@@ -8,45 +8,62 @@ namespace test
     {
         public static void Main()
         {
-            var data = Console.ReadLine();
-
-            var totalPopulation = new Dictionary<string, Dictionary<string, long>>();
-
-            while (data != "report")
-            {
-                var input = data.Split('|');
-
-                var state = input[1];
-                var town = input[0];
-                var population = long.Parse(input[2]);
+            var input = "0123456789";
+            var split = input.Split(new []{ '\0', }, StringSplitOptions.RemoveEmptyEntries);
 
 
-                if (!totalPopulation.ContainsKey(state))
-                {
-                    totalPopulation[state] = new Dictionary<string, long>();
-                }
-                if (!totalPopulation[state].ContainsKey(town))
-                {
-                    totalPopulation[state][town] = 0;
-                }
-
-                totalPopulation[state][town] += population;
-
-                data = Console.ReadLine();
-            }
-
-            foreach (var country in totalPopulation.OrderByDescending(x => x.Value.Values.Sum()))
-            {
-                Console.WriteLine($"{country.Key} (total population: {country.Value.Values.Sum()})");
-
-                foreach (var townAndPopulation in country.Value.OrderByDescending(x => x.Value))
-                {
-                    Console.WriteLine($"=>{townAndPopulation.Key}: {townAndPopulation.Value}");
-                }
-            }
+            Console.WriteLine(split[0]);
+            Console.WriteLine(split[1]);
         }
     }
 }
+
+
+//namespace test
+//{
+//    class MainClass
+//    {
+//        public static void Main()
+//        {
+//            var data = Console.ReadLine();
+
+//            var totalPopulation = new Dictionary<string, Dictionary<string, long>>();
+
+//            while (data != "report")
+//            {
+//                var input = data.Split('|');
+
+//                var state = input[1];
+//                var town = input[0];
+//                var population = long.Parse(input[2]);
+
+
+//                if (!totalPopulation.ContainsKey(state))
+//                {
+//                    totalPopulation[state] = new Dictionary<string, long>();
+//                }
+//                if (!totalPopulation[state].ContainsKey(town))
+//                {
+//                    totalPopulation[state][town] = 0;
+//                }
+
+//                totalPopulation[state][town] += population;
+
+//                data = Console.ReadLine();
+//            }
+
+//            foreach (var country in totalPopulation.OrderByDescending(x => x.Value.Values.Sum()))
+//            {
+//                Console.WriteLine($"{country.Key} (total population: {country.Value.Values.Sum()})");
+
+//                foreach (var townAndPopulation in country.Value.OrderByDescending(x => x.Value))
+//                {
+//                    Console.WriteLine($"=>{townAndPopulation.Key}: {townAndPopulation.Value}");
+//                }
+//            }
+//        }
+//    }
+//}
 
 //namespace test
 //{
