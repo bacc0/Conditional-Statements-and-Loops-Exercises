@@ -16,7 +16,7 @@ namespace B01_AveraageMarks
             {
                 var entry = Console.ReadLine()
                                    .Split(new char[] { ' ' }
-                                   , StringSplitOptions.RemoveEmptyEntries); 
+                                   , StringSplitOptions.RemoveEmptyEntries);
 
                 var student = entry[0];
                 var marks = double.Parse(entry[1]);
@@ -26,12 +26,13 @@ namespace B01_AveraageMarks
                 {
                     students[student] = new List<double>();
                 }
-
                     students[student].Add(marks);
-
             }
 
-            Console.WriteLine("jj");
+            foreach (var item in students)
+            {
+                Console.WriteLine($"{item.Key} -> {string.Join(" ", item.Value)} (avg: {item.Value.Average():f2})");
+            }
 
         }
     }
