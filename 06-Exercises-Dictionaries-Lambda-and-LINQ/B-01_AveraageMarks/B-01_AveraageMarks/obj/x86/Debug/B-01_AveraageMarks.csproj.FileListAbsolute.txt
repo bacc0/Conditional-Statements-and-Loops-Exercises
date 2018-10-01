@@ -1,0 +1,6 @@
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/bin/Debug/B-01_AveraageMarks.exe
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/bin/Debug/B-01_AveraageMarks.pdb
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/obj/x86/Debug/B-01_AveraageMarks.csprojAssemblyReference.cache
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/obj/x86/Debug/B-01_AveraageMarks.csproj.CoreCompileInputs.cache
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/obj/x86/Debug/B-01_AveraageMarks.exe
+/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/obj/x86/Debug/B-01_AveraageMarks.pdb

@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{94D5E74F-E3A6-49BC-ACAA-063A5EB4C2B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="test/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Documents/:Users:bacco:Desktop:08-Exercises-Strings-and-TextProcessing:04-Character-Multiplier:04-Character-Multiplier:Program.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="test/Program.cs" Line="15" Column="41" />
-=======
-      <File FileName="test/Program.cs" Line="12" Column="27" />
->>>>>>> 1560979dfd43a78b4d3f9a8484e22395584a0290
+      <File FileName="../../../../../Documents/:Users:bacco:Desktop:08-Exercises-Strings-and-TextProcessing:04-Character-Multiplier:04-Character-Multiplier:Program.cs" Line="9" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

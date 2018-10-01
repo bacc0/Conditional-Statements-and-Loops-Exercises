@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B163C47C-2709-458A-A4A1-EF483833C948}|Default">
+  <MonoDevelop.Ide.ItemProperties.B-01__AveraageMarks PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="B-01_AveraageMarks/Program.cs">
+    <Files>
+      <File FileName="B-01_AveraageMarks/Program.cs" Line="19" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.B-01__AveraageMarks.Tests FirstBuild="True" />
+</Properties>
