@@ -26,10 +26,9 @@ namespace B01_AveraageMarks
                 {
                     students[student] = new List<double>();
                 }
-                else
-                {
+
                     students[student].Add(marks);
-                }
+
             }
 
             Console.WriteLine("jj");
