@@ -2,12 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.B-01__AveraageMarks PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="B-01_AveraageMarks/Program.cs">
     <Files>
-      <File FileName="B-01_AveraageMarks/Program.cs" Line="19" Column="62" />
+      <File FileName="B-01_AveraageMarks/Program.cs" Line="35" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bacco/Desktop/JS Core/Programming-Fundamentals-SoftUni/06-Exercises-Dictionaries-Lambda-and-LINQ/B-01_AveraageMarks/B-01_AveraageMarks/Program.cs" relfile="B-01_AveraageMarks/Program.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
